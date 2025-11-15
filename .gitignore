@@ -1,0 +1,27 @@
+# Dependencies
+/node_modules
+
+# Build artifacts
+/build
+/dist
+/out
+.next/ # For Next.js projects
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor/OS files
+.vscode/ # Optional, ignores editor-specific settings
+.idea/ # For JetBrains IDEs
+.DS_Store # macOS
+Thumbs.db # Windows
