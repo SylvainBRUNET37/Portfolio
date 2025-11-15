@@ -1,11 +1,17 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Hero from "../components/Hero.jsx";
+import projects from "../data/projects.js";
+import ProjectCard from "../components/ProjectCard.jsx";
 ---
-
-<Layout>
-	<Welcome />
-</Layout>
+<BaseLayout>
+  <Hero client:load />
+  <section id="projects" class="mt-8">
+    <h2 class="text-2xl font-bold">Projets récents</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-4">
+      {projects.slice(0, 3).map(p => (
+        <ProjectCard project={p} client:load />
+      ))}
+    </div>
+  </section>
+</BaseLayout>

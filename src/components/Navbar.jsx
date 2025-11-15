@@ -1,0 +1,14 @@
+export default function Navbar() {
+  return (
+    <nav className="w-full py-4 border-b">
+      <div className="container mx-auto flex items-center justify-between px-4">
+        <a href="/" className="font-bold text-xl">Sylvain Brunet</a>
+        <div className="space-x-4">
+          <a href="/#projects">Page principale</a>
+          <a href="/projects">Tous les projets</a>
+          <a href="/contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+  );
+}

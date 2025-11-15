@@ -1,0 +1,34 @@
+.pcard {
+  display: block;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+}
+
+.pcard-media {
+  aspect-ratio: 4 / 3;
+  position: relative;
+  overflow: hidden;
+}
+
+.pcard-media img.pcard-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.pcard-body {
+  padding: 12px;
+}
+
+.pcard-title { font-weight: 600; font-size: 1.0625rem; margin: 0; }
+.pcard-desc { color: #374151; margin-top: 8px; font-size: 0.9rem; line-height: 1.2; max-height: 3.6em; overflow: hidden; }
+.pcard-tags { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 6px; }
+.pcard-tag { font-size: 0.75rem; padding: 4px 8px; border-radius: 6px; border: 1px solid #e5e7eb; background: #fafafa; }
