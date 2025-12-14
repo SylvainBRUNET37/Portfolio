@@ -18,7 +18,7 @@ export default
   },
   {
     img: "/images/games/pokemon-heartgold.jpg",
-    link: "https://www.pokemon.com/us/pokemon-video-games/pokemon-heartgold-version-and-pokemon-soulsilver-version",
+    link: "https://www.pokemon.com/us/pokemon-video-games/pokemon-heartgold-and-soulsilver-versions",
   },
   {
     img: "/images/games/dofus.jpg",

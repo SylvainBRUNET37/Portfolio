@@ -82,3 +82,38 @@
 .bcard-games .bcard-progress-bar {
   background: linear-gradient(90deg, #6366f1, #4f46e5);
 }
+
+.bcard {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.bcard-media {
+  position: relative;
+}
+
+.bcard-media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.15);
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  pointer-events: none;
+}
+
+.bcard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+.bcard:hover .bcard-media::after {
+  opacity: 1;
+}
+
+.bcard-media img {
+  transition: transform 0.35s ease;
+}
+
+.bcard:hover .bcard-media img {
+  transform: scale(1.05);
+}

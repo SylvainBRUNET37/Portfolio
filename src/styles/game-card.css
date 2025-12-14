@@ -24,3 +24,27 @@
   justify-content: center;
 }
 
+.game-frame {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.game-frame::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.15);
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  pointer-events: none;
+  border-radius: 18px;
+}
+
+.game-frame:hover::after {
+  opacity: 1;
+}
+
+.game-frame:hover img {
+  transform: scale(1.05);
+}

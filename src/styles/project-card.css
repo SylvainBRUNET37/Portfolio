@@ -29,6 +29,54 @@
 }
 
 .pcard-title { font-weight: 600; font-size: 1.0625rem; margin: 0; }
-.pcard-desc { color: #374151; margin-top: 8px; font-size: 0.9rem; line-height: 1.2; max-height: 3.6em; overflow: hidden; }
+.pcard-desc {
+  color: #374151;
+  margin-top: 8px;
+  font-size: 0.9rem;
+  line-height: 1.4;
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+
+  overflow: hidden;
+}
+
 .pcard-tags { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 6px; }
 .pcard-tag { font-size: 0.75rem; padding: 4px 8px; border-radius: 6px; border: 1px solid #e5e7eb; background: #fafafa; }
+
+.pcard-period {
+  font-size: 0.85rem;
+  opacity: 0.7;
+  white-space: nowrap;
+}
+
+.pcard-media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  opacity: 0;
+  transition: opacity 0.25s ease;
+  pointer-events: none;
+}
+
+.pcard {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.pcard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+.pcard:hover .pcard-media::after {
+  opacity: 1;
+}
+
+.pcard-media img.pcard-img {
+  transition: transform 0.35s ease;
+}
+
+.pcard:hover .pcard-img {
+  transform: scale(1.05);
+}

@@ -2,8 +2,8 @@ export default
 [
   {
     id: "ue5-multiplayer",
-    title: "(Coming Soon) 3D Multiplayer Game with Unreal Engine 5 (2026)",
-    period: "-",
+    title: "(Coming Soon) 3D Multiplayer Game with Unreal Engine 5",
+    period: "January 2026 - May 2026",
     description: "Development of a 3D multiplayer game using Unreal Engine 5 with a team of 6 developers and 1 music artist.",
     tech: ["Unreal Engine 5", "C++", "Multiplayer", "AI"],
     img: "/images/projects/ue5-multiplayer.png",
@@ -11,17 +11,17 @@ export default
   },
   {
     id: "need4fish",
-    title: "Need4Fish - Underwater Racing Game (2025)",
-    period: "-",
-    description: "Development of an underwater racing game using a homemade game engine, in a team of 4.",
+    title: "FishEngine & Need4Fish - Homemade game engine for an underwater game",
+    period: "September 2025 - December 2025",
+    description: "Development of a homemade game engine, applied to an underwater time-trial racing game, developed in a team of 4.",
     tech: ["DX11", "Shaders (HLSL)", "C++", "JoltPhysics", "Profiling", "Blender", "Git"],
     img: "/images/projects/need4fish.png",
     link: "https://github.com/SylvainBRUNET37/FishEngine.git"
   },
   {
     id: "turn-based-ai",
-    title: "AI for a Turn-Based Game (2025)",
-    period: "-",
+    title: "AI for a Turn-Based Programming Challenge",
+    period: "September 2025 - December 2025",
     description: "Development of AI algorithms for a turn-based programming challenge with 38 levels.",
     tech: ["AI", "C++", "A* search", "State machine", "Git"],
     img: "/images/projects/ai-turnbased.png",
@@ -29,29 +29,29 @@ export default
   },
   {
     id: "chip8-emulator",
-    title: "CHIP-8 Emulator (2023)",
-    period: "-",
-    description: "Programming of a CHIP-8 emulator including virtual CPU and memory management, capable of running ROMs of old games (e.g., Pong, Space Invaders).",
-    tech: ["C", "Virtual Machine", "Git"],
+    title: "CHIP-8 Emulator",
+    period: "December 2023 - February 2024",
+    description: "A CHIP-8 emulator written in C that includes a virtual CPU and memory management, and is capable of running ROMs of classic games (e.g., Pong, Tetris, etc.).",
+    tech: ["C", "Systems", "Emulation", "CPU Instruction Decoding", "Virtual Machine"],
     img: "/images/projects/chip8.png",
-    link: "#"
+    link: "https://github.com/SylvainBRUNET37/chip8-emulator"
   },
   {
     id: "graph-lib",
-    title: "Graph Management Library (2024)",
-    period: "-",
+    title: "Graph Library",
+    period: "February 2024 - May 2024",
     description: "Design and implementation of a graph data structure library in C++.",
-    tech: ["C++", "Algorithms", "Graphs", "Git"],
+    tech: ["Graphs", "C++", "Unit testing", "Algorithms", "Git"],
     img: "/images/projects/graph-lib.png",
-    link: "#"
+    link: "https://github.com/SylvainBRUNET37/graph"
   },
   {
     id: "shotten-totten",
-    title: "Shotten Totten (2024)",
-    period: "-",
+    title: "Shotten Totten",
+    period: "June 2024",
     description: "Creation of the board game in C++.",
     tech: ["C++", "Git"],
     img: "/images/projects/shotten-totten.png",
-    link: "#"
+    link: "https://github.com/SylvainBRUNET37/schotten-totten"
   },
 ];
