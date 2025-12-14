@@ -1,0 +1,16 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import books from "../data/books.js";
+import BookCard from "../components/BookCard.jsx";
+---
+
+<BaseLayout>
+  <section class="mt-4">
+    <h2 class="text-3xl font-bold mb-6">Books I've Read</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {books.map(book => (
+        <BookCard book={book} client:idle />
+      ))}
+    </div>
+  </section>
+</BaseLayout>

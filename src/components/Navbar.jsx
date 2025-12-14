@@ -6,6 +6,7 @@ export default function Navbar() {
         <div className="space-x-4">
           <a href="/#projects">Main page</a>
           <a href="/projects">Projects</a>
+          <a href="/miscellaneous">Miscellaneous</a>
           <a href="/contact">Contact</a>
         </div>
       </div>
