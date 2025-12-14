@@ -18,11 +18,11 @@ import ConferenceCard from "../components/ConferenceCard.jsx";
         <span class="transition-transform group-open:rotate-180">▾</span>
       </summary>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {games.map(game => (
-          <GameCard game={game} client:idle />
-        ))}
-      </div>
+      <div class="grid gap-6 [grid-template-columns:repeat(auto-fit,minmax(180px,1fr))]">
+      {games.map(game => (
+        <GameCard game={game} client:idle />
+      ))}
+       </div>
     </details>
   </section>
 

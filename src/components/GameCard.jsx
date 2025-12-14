@@ -1,23 +1,18 @@
-import "/src/styles/book-card.css";
+import "/src/styles/game-card.css";
 
 export default function GameCard({ game }) {
   return (
     <a
-      href={game.link || "#"}
-      className="bcard"
+      href={game.link}
       target="_blank"
       rel="noopener noreferrer"
+      className="game-frame w-full"
     >
-      <div className="bcard-media">
-        <img src={game.img} alt={game.title} />
-      </div>
-
-      <div className="bcard-body">
-        <h3 className="bcard-title">{game.title}</h3>
-        <p className="bcard-author">{game.developer}</p>
-
-        <p className="bcard-desc">{game.description}</p>
-      </div>
+      <img
+        src={game.img}
+        alt=""
+        loading="lazy"
+      />
     </a>
   );
 }
