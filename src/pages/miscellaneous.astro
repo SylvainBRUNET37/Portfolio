@@ -1,16 +1,60 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import books from "../data/books.js";
+import games from "../data/games.js";
+import conferences from "../data/conferences.js";
+
 import BookCard from "../components/BookCard.jsx";
+import GameCard from "../components/GameCard.jsx";
+import ConferenceCard from "../components/ConferenceCard.jsx";
 ---
 
 <BaseLayout>
+  <!-- Games -->
+  <section class="mt-12">
+    <details class="group">
+      <summary class="text-3xl font-bold mb-6 cursor-pointer list-none flex-row items-center justify-between">
+        Favorite Games
+        <span class="transition-transform group-open:rotate-180">▾</span>
+      </summary>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {games.map(game => (
+          <GameCard game={game} client:idle />
+        ))}
+      </div>
+    </details>
+  </section>
+
+  <!-- Books -->
   <section class="mt-4">
-    <h2 class="text-3xl font-bold mb-6">Books I've Read</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      {books.map(book => (
-        <BookCard book={book} client:idle />
-      ))}
-    </div>
+    <details open class="group">
+      <summary class="text-3xl font-bold mb-6 cursor-pointer list-none flex-row items-center justify-between">
+        Books I've Read
+        <span class="transition-transform group-open:rotate-180">▾</span>
+      </summary>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {books.map(book => (
+          <BookCard book={book} client:idle />
+        ))}
+      </div>
+    </details>
+  </section>
+
+  <!-- Conferences -->
+  <section class="mt-12">
+    <details class="group">
+      <summary class="text-3xl font-bold mb-6 cursor-pointer list-none flex-row items-center justify-between">
+        Conferences
+        <span class="transition-transform group-open:rotate-180">▾</span>
+      </summary>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {conferences.map(conf => (
+          <ConferenceCard conference={conf} client:idle />
+        ))}
+      </div>
+    </details>
   </section>
 </BaseLayout>

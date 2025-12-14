@@ -1,0 +1,27 @@
+.conf {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px dashed #e5e7eb;
+}
+
+.conf-title {
+  font-weight: 500;
+  text-decoration: none;
+  color: #111827;
+}
+
+.conf-title:hover {
+  text-decoration: underline;
+}
+
+.conf-yt {
+  font-size: 0.85rem;
+  color: #dc2626;
+  text-decoration: none;
+}
+
+.conf-yt:hover {
+  opacity: 0.8;
+}

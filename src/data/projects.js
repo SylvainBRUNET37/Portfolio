@@ -6,7 +6,7 @@ export default
     period: "-",
     description: "Development of a 3D multiplayer game using Unreal Engine 5 with a team of 6 developers and 1 music artist.",
     tech: ["Unreal Engine 5", "C++", "Multiplayer", "AI"],
-    img: "/images/ue5-multiplayer.png",
+    img: "/images/projects/ue5-multiplayer.png",
     link: "#"
   },
   {
@@ -15,7 +15,7 @@ export default
     period: "-",
     description: "Development of an underwater racing game using a homemade game engine, in a team of 4.",
     tech: ["DX11", "Shaders (HLSL)", "C++", "JoltPhysics", "Profiling", "Blender", "Git"],
-    img: "/images/need4fish.png",
+    img: "/images/projects/need4fish.png",
     link: "https://github.com/SylvainBRUNET37/FishEngine.git"
   },
   {
@@ -24,7 +24,7 @@ export default
     period: "-",
     description: "Development of AI algorithms for a turn-based programming challenge with 38 levels.",
     tech: ["AI", "C++", "A* search", "State machine", "Git"],
-    img: "/images/ai-turnbased.png",
+    img: "/images/projects/ai-turnbased.png",
     link: "https://github.com/Nell15/AI-Bootcamp.git"
   },
   {
@@ -33,7 +33,7 @@ export default
     period: "-",
     description: "Programming of a CHIP-8 emulator including virtual CPU and memory management, capable of running ROMs of old games (e.g., Pong, Space Invaders).",
     tech: ["C", "Virtual Machine", "Git"],
-    img: "/images/chip8.png",
+    img: "/images/projects/chip8.png",
     link: "#"
   },
   {
@@ -42,7 +42,7 @@ export default
     period: "-",
     description: "Design and implementation of a graph data structure library in C++.",
     tech: ["C++", "Algorithms", "Graphs", "Git"],
-    img: "/images/graph-lib.png",
+    img: "/images/projects/graph-lib.png",
     link: "#"
   },
   {
@@ -51,7 +51,7 @@ export default
     period: "-",
     description: "Creation of the board game in C++.",
     tech: ["C++", "Git"],
-    img: "/images/shotten-totten.png",
+    img: "/images/projects/shotten-totten.png",
     link: "#"
   },
 ];
