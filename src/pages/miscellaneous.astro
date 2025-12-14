@@ -44,17 +44,38 @@ import ConferenceCard from "../components/ConferenceCard.jsx";
 
   <!-- Conferences -->
   <section class="mt-12">
-    <details class="group" open>
-      <summary class="text-3xl font-bold mb-6 cursor-pointer list-none flex-row items-center justify-between">
+    <details class="group border-t border-slate-200 pt-6" open>
+      <summary class="cursor-pointer list-none flex-row items-center justify-between text-3xl font-bold select-none">
         Conferences
         <span class="transition-transform group-open:rotate-180">▾</span>
       </summary>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {conferences.map(conf => (
-          <ConferenceCard conference={conf} client:idle />
+      <p class="mt-2 text-slate-600 max-w-2xl"></p>
+
+      <div class="mt-10 space-y-10">
+        {conferences.map(section => (
+          <details class="group" open>
+            <summary class="cursor-pointer list-none flex-row items-center justify-between text-xl font-semibold select-none">
+              <span>
+                {section.section}
+                <span class="ml-2 text-sm text-slate-500">
+                  ({section.conferences.length})
+                </span>
+              </span>
+              <span class="transition-transform group-open:rotate-180 text-slate-400">
+                ▾
+              </span>
+            </summary>
+
+            <div class="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {section.conferences.map(conf => (
+                <ConferenceCard conference={conf} client:idle />
+              ))}
+            </div>
+          </details>
         ))}
       </div>
     </details>
   </section>
+
 </BaseLayout>
