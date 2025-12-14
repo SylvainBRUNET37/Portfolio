@@ -4,8 +4,8 @@ export default function Navbar() {
       <div className="container mx-auto flex items-center justify-between px-4">
         <a href="/" className="font-bold text-xl">Sylvain Brunet</a>
         <div className="space-x-4">
-          <a href="/#projects">Page principale</a>
-          <a href="/projects">Tous les projets</a>
+          <a href="/#projects">Main page</a>
+          <a href="/projects">Projects</a>
           <a href="/contact">Contact</a>
         </div>
       </div>

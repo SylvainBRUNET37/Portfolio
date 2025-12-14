@@ -5,7 +5,7 @@ export default function Footer() {
         <p>© {new Date().getFullYear()} Sylvain Brunet</p>
 
         <p className="text-sm">
-          Contact :{" "}
+          Contact:{" "}
           <a
             href="mailto:sylvain.brunet37@gmail.com"
             className="text-blue-600 hover:underline"
@@ -23,7 +23,7 @@ export default function Footer() {
         </p>
 
         <p className="text-xs text-gray-500">
-          Basé à Montréal, Québec, Canada.
+          Based in Montreal, Quebec, Canada.
         </p>
       </div>
     </footer>

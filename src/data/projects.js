@@ -1,54 +1,55 @@
-export default [
-    {
+export default 
+[
+  {
     id: "ue5-multiplayer",
-    title: "(À venir) Jeu 3D multijoueur avec Unreal Engine 5",
+    title: "(Coming Soon) 3D Multiplayer Game with Unreal Engine 5 (2026)",
     period: "-",
-    description: "Développement d'un jeu 3D multijoueur avec Unreal Engine 5.",
-    tech: ["Unreal Engine 5", "C++", "Multiplayer"],
+    description: "Development of a 3D multiplayer game using Unreal Engine 5 with a team of 6 developers and 1 music artist.",
+    tech: ["Unreal Engine 5", "C++", "Multiplayer", "AI"],
     img: "/images/ue5-multiplayer.png",
     link: "#"
   },
   {
     id: "need4fish",
-    title: "(En cours) Need4Fish - Jeu de course sous-marin",
+    title: "Need4Fish - Underwater Racing Game (2025)",
     period: "-",
-    description: "Développement d'un jeu de course sous-marine avec un moteur de jeu fais maison.",
-    tech: ["C++", "JoltPhysics", "DX11", "Git", "Miro"],
+    description: "Development of an underwater racing game using a homemade game engine, in a team of 4.",
+    tech: ["DX11", "Shaders (HLSL)", "C++", "JoltPhysics", "Profiling", "Blender", "Git"],
     img: "/images/need4fish.png",
     link: "https://github.com/SylvainBRUNET37/FishEngine.git"
   },
   {
     id: "turn-based-ai",
-    title: "IA pour jeu tour par tour",
+    title: "AI for a Turn-Based Game (2025)",
     period: "-",
-    description: "Développement d'alogrithmes d'IA pour un jeu tour par tour.",
-    tech: ["C++", "AI", "Algorithms", "Git"],
+    description: "Development of AI algorithms for a turn-based programming challenge with 38 levels.",
+    tech: ["AI", "C++", "A* search", "State machine", "Git"],
     img: "/images/ai-turnbased.png",
     link: "https://github.com/Nell15/AI-Bootcamp.git"
   },
   {
     id: "chip8-emulator",
-    title: "Émulateur CHIP-8",
+    title: "CHIP-8 Emulator (2023)",
     period: "-",
-    description: "Programmation d'un émulateur CHIP-8.",
-    tech: ["C", "Virtual machine", "Git"],
+    description: "Programming of a CHIP-8 emulator including virtual CPU and memory management, capable of running ROMs of old games (e.g., Pong, Space Invaders).",
+    tech: ["C", "Virtual Machine", "Git"],
     img: "/images/chip8.png",
     link: "#"
   },
   {
     id: "graph-lib",
-    title: "Librairie de gestion de graphes",
+    title: "Graph Management Library (2024)",
     period: "-",
-    description: "Conception et réalisation d'une librairie pour structures de graphes en C++.",
+    description: "Design and implementation of a graph data structure library in C++.",
     tech: ["C++", "Algorithms", "Graphs", "Git"],
     img: "/images/graph-lib.png",
     link: "#"
   },
   {
     id: "shotten-totten",
-    title: "Shotten Totten (C++)",
+    title: "Shotten Totten (2024)",
     period: "-",
-    description: "Création du jeu de société en C++.",
+    description: "Creation of the board game in C++.",
     tech: ["C++", "Git"],
     img: "/images/shotten-totten.png",
     link: "#"

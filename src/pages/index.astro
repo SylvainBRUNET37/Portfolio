@@ -7,7 +7,7 @@ import ProjectCard from "../components/ProjectCard.jsx";
 <BaseLayout>
   <Hero client:load />
   <section id="projects" class="mt-8">
-    <h2 class="text-2xl font-bold">Projets récents</h2>
+    <h2 class="text-2xl font-bold">Recent projects</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-4">
       {projects.slice(0, 3).map(p => (
         <ProjectCard project={p} client:load />
