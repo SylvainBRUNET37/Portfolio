@@ -54,4 +54,13 @@ export default
     img: "/images/projects/shotten-totten.png",
     link: "https://github.com/SylvainBRUNET37/schotten-totten"
   },
+  {
+    id: "passplat",
+    title: "Reusable Food Container Borrowing System for Passplat association",
+    period: "October 2024 - March 2025",
+    description: "Prototype developed in a team of 5 for a multiplaform mobile application and backend system for an association to manage the borrowing and return of reusable food containers.",
+    tech: ["Mobile", "Java", "Spring Boot", "TypeScript", "React Native", "REST API", "SQL", "Database", "Gradle", "Git"],
+    img: "/images/projects/passplat.png",
+    link: "https://www.youtube.com/shorts/EOsnFFwecBM"
+  }
 ];
