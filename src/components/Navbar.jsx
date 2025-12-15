@@ -5,6 +5,7 @@ export default function Navbar() {
         <a href="/" className="font-bold text-xl">Sylvain Brunet</a>
         <div className="space-x-4">
           <a href="/#projects">Main page</a>
+          <a href="/experiences">Experiences</a>
           <a href="/projects">Projects</a>
           <a href="/miscellaneous">Miscellaneous</a>
           <a href="/contact">Contact</a>

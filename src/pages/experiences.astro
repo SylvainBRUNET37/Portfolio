@@ -1,0 +1,17 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import projects from "../data/experiences.js";
+import ExperienceCard from "../components/ExperienceCard.jsx";
+---
+
+<BaseLayout>
+  <section class="mt-4">
+    <h2 class="text-3xl font-bold mb-6">Experiences</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      {projects.map(p => (
+        <ExperienceCard project={p} />
+      ))}
+    </div>
+  </section>
+</BaseLayout>
