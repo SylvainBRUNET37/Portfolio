@@ -1,4 +1,4 @@
-import "/src/styles/experience-card.css";
+import "/src/styles/project-card.css";
 
 export default function ExperienceCard({ project }) {
   return (
@@ -15,7 +15,11 @@ export default function ExperienceCard({ project }) {
           )}
         </div>
 
-        <p className="pcard-desc">{project.description}</p>
+        <div className="pcard-desc space-y-2">
+        {project.description.map((line, i) => (
+            <p key={i}>{line}</p>
+        ))}
+        </div>
 
         <div className="pcard-tags">
           {project.tech.map((t) => (

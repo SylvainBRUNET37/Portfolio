@@ -5,6 +5,7 @@
   overflow: hidden;
   text-decoration: none;
   color: inherit;
+  white-space: 'pre-line';
 }
 
 .pcard-media {
@@ -79,4 +80,14 @@
 
 .pcard:hover .pcard-img {
   transform: scale(1.05);
+}
+
+.pcard-line {
+  display: flex;
+  gap: 0.5rem;
+  line-height: 1.4;
+}
+
+.pcard-dash {
+  font-weight: bold;
 }
