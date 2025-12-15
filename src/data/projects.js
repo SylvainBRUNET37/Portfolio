@@ -62,5 +62,35 @@ export default
     tech: ["Mobile", "Java", "Spring Boot", "TypeScript", "React Native", "REST API", "SQL", "Database", "Gradle", "Git"],
     img: "/images/projects/passplat.png",
     link: "https://www.youtube.com/shorts/EOsnFFwecBM"
+  },
+  {
+    id: "ql-project",
+    title: "Quality Driven Web Application",
+    period: "October 2024 - January 2025",
+    description: "A web application developed in a team of 6 focused on the implementation of automated testing strategies and a CI/CD pipeline to ensure code stability and maintainability.",
+    tech: [
+      "TypeScript",
+      "Vue.js",
+      "Automated Testing",
+      "CI/CD Pipeline",
+      "Firebase",
+      "NoSQL Database",
+      "Git"
+    ],
+    img: "/images/projects/ql-project.jpg",
+    link: "https://github.com/SylvainBRUNET37/projet-ql"
+  },
+  {
+    id: "mcts",
+    title: "Monte Carlo Tree Search Algorithm Visualization for Tic-Tac-Toe",
+    period: "October 2025",
+    description: "A visualization of an AI agent playing Tic-Tac-Toe using the Monte Carlo Tree Search (MCTS) algorithm.",
+    tech: [
+      "AI",
+      "Monte Carlo Tree Search",
+      "JavaScript"
+    ],
+    img: "/images/projects/mcts.png",
+    link: "https://github.com/SylvainBRUNET37/MCTS"
   }
 ];
