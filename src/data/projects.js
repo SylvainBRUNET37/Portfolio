@@ -89,7 +89,7 @@ export default
     title: "Shotten Totten",
     period: "June 2024",
     description: "Creation of the board game in C++.",
-    tech: ["C++", "Git"],
+    tech: ["C++", "UML", "Git"],
     img: "/images/projects/shotten-totten.png",
     link: "https://github.com/SylvainBRUNET37/schotten-totten"
   },
@@ -118,5 +118,19 @@ export default
     ],
     img: "/images/projects/connect4.jpg",
     link: "https://github.com/SylvainBRUNET37/ApplicationProject"
+  },
+  {
+    id: "ovl",
+    title: "Mobile Application for Vehicle Tracking",
+    period: "January 2023 - May 2023",
+    description: "Mobile application designed to locate and monitor a vehicle tracker developed by other members of the team.",
+    tech: [
+      "TypeScript",
+      "React Native",
+      "V-Model",
+      "UML"
+    ],
+    img: "/images/projects/ovl.png",
+    link: "#"
   }
 ];
