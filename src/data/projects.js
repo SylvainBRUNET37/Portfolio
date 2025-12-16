@@ -16,7 +16,7 @@ export default
     description: "Development of a homemade game engine, applied to an underwater time-trial racing game, developed in a team of 4.",
     tech: ["DX11", "Shaders (HLSL)", "C++", "JoltPhysics", "Profiling", "Blender", "Git"],
     img: "/images/projects/need4fish.png",
-    link: "https://github.com/SylvainBRUNET37/FishEngine.git"
+    link: "https://github.com/SylvainBRUNET37/FishEngine"
   },
   {
     id: "turn-based-ai",
@@ -25,7 +25,7 @@ export default
     description: "Development of AI algorithms for a turn-based programming challenge with 38 levels.",
     tech: ["AI", "C++", "A* search", "State machine", "Git"],
     img: "/images/projects/ai-turnbased.png",
-    link: "https://github.com/Nell15/AI-Bootcamp.git"
+    link: "https://github.com/Nell15/AI-Bootcamp"
   },
   {
     id: "chip8-emulator",
@@ -48,6 +48,7 @@ export default
       "Optimization"
     ],
     img: "/images/projects/schedule.png",
+    link: "https://github.com/SylvainBRUNET37/schedule"
   },
   {
     id: "passplat",

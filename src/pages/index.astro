@@ -4,14 +4,122 @@ import Hero from "../components/Hero.jsx";
 import projects from "../data/projects.js";
 import ProjectCard from "../components/ProjectCard.jsx";
 ---
+
 <BaseLayout>
   <Hero client:load />
-  <section id="projects" class="mt-8">
+
+  <!-- Projects -->
+  <section id="projects" class="mt-12">
     <h2 class="text-2xl font-bold">Recent projects</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-4">
-      {projects.slice(0, 3).map(p => (
-        <ProjectCard project={p} client:load />
-      ))}
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+      {projects.slice(0, 3).map((p) => <ProjectCard project={p} client:load />)}
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="mt-32 py-16 border-t border-gray-200">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-semibold tracking-tight">Contact</h2>
+
+      <!-- Contact cards -->
+      <div class="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <!-- Email -->
+        <a
+          href="mailto:sylvain.brunet37@gmail.com"
+          class="group flex items-center gap-4 rounded-xl border p-6 transition
+                 hover:border-gray-400 hover:bg-gray-50"
+        >
+          <img
+            src="images/icons/gmail.png"
+            alt="Email"
+            class="h-8 w-8 transition group-hover:scale-110"
+          />
+          <div class="text-left">
+            <div class="text-lg font-medium">Email</div>
+            <p class="text-sm text-gray-500">sylvain.brunet37@gmail.com</p>
+          </div>
+        </a>
+
+        <!-- LinkedIn -->
+        <a
+          href="https://www.linkedin.com/in/sylvain-brunet-807b62331/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="group flex items-center gap-4 rounded-xl border p-6 transition
+                 hover:border-gray-400 hover:bg-gray-50"
+        >
+          <img
+            src="images/icons/linkedin.png"
+            alt="LinkedIn"
+            class="h-8 w-8 transition group-hover:scale-110"
+          />
+          <div class="text-left">
+            <div class="text-lg font-medium">LinkedIn</div>
+            <p class="text-sm text-gray-500">Professional profile</p>
+          </div>
+        </a>
+
+        <!-- GitHub -->
+        <a
+          href="https://github.com/SylvainBRUNET37"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="group flex items-center gap-4 rounded-xl border p-6 transition
+                 hover:border-gray-400 hover:bg-gray-50"
+        >
+          <img
+            src="images/icons/github.png"
+            alt="GitHub"
+            class="h-8 w-8 transition group-hover:scale-110"
+          />
+          <div class="text-left">
+            <div class="text-lg font-medium">GitHub</div>
+            <p class="text-sm text-gray-500">Code & projects</p>
+          </div>
+        </a>
+      </div>
+
+      <!-- CV cards -->
+      <div class="mt-6">
+        <div class="grid gap-4 sm:grid-cols-2 max-w-xl mx-auto">
+          <!-- CV FR -->
+          <a
+            href="documents/cv-sylvain-brunet-fr.pdf"
+            target="_blank"
+            class="group flex items-center gap-4 rounded-xl border p-6 transition
+                   hover:border-gray-400 hover:bg-gray-50"
+          >
+            <img
+              src="images/icons/fr.png"
+              alt="CV French"
+              class="h-8 w-8 transition group-hover:scale-110"
+            />
+            <div class="text-left">
+              <div class="text-lg font-medium">CV - French</div>
+              <p class="text-sm text-gray-500">PDF version</p>
+            </div>
+          </a>
+
+          <!-- CV EN -->
+          <a
+            href="documents/cv-sylvain-brunet-en.pdf"
+            target="_blank"
+            class="group flex items-center gap-4 rounded-xl border p-6 transition
+                   hover:border-gray-400 hover:bg-gray-50"
+          >
+            <img
+              src="images/icons/en.png"
+              alt="CV English"
+              class="h-8 w-8 transition group-hover:scale-110"
+            />
+            <div class="text-left">
+              <div class="text-lg font-medium">CV - English</div>
+              <p class="text-sm text-gray-500">PDF version</p>
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
   </section>
 </BaseLayout>
