@@ -2,9 +2,9 @@ export default
 [
   {
     id: "ue5-multiplayer",
-    title: "(Coming Soon) 3D Multiplayer Game with Unreal Engine 5",
+    title: "(Coming Soon) 3D Multiplayer Horror Game with Unreal Engine 5",
     period: "January 2026 - May 2026",
-    description: "Development of a 3D multiplayer game using Unreal Engine 5 with a team of 6 developers and 1 music artist.",
+    description: "Development of a 3D multiplayer horror game using Unreal Engine 5 with a team of 5 developers and 1 music artist.",
     tech: ["Unreal Engine 5", "C++", "Multiplayer", "AI"],
     img: "/images/projects/ue5-multiplayer.png",
     link: "#"
@@ -40,7 +40,7 @@ export default
     id: "schedule",
     title: "Schedule Optimization with Genetic Algorithms",
     period: "October 2024 - December 2024",
-    description: "AI scheduling algorithm using a genetic algorithm. Developed in pairs to create fictitious nurse schedules under 8 constraints and several user preferences.",
+    description: "AI scheduling algorithm using a genetic algorithm developed in pairs to create fictitious nurse schedules under 8 constraints and several user preferences.",
     tech: [
       "AI",
       "C++",
@@ -63,7 +63,7 @@ export default
     id: "ql-project",
     title: "Quality Driven Web Application",
     period: "October 2024 - January 2025",
-    description: "A web application developed in a team of 6 focused on the implementation of automated testing strategies and a CI/CD pipeline to ensure code stability and maintainability.",
+    description: "A web application developed in a team of 6 focused on the implementation of automated testing strategies and a CI/CD pipeline.",
     tech: [
       "TypeScript",
       "Vue.js",
@@ -124,10 +124,11 @@ export default
     id: "ovl",
     title: "Mobile Application for Vehicle Tracking",
     period: "January 2023 - May 2023",
-    description: "Mobile application designed to locate and monitor a vehicle tracker developed by other members of the team.",
+    description: "Mobile application designed to locate and monitor a vehicle tracker.",
     tech: [
       "TypeScript",
       "React Native",
+      "Mobile",
       "V-Model",
       "UML"
     ],

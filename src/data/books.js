@@ -1,5 +1,5 @@
 export default [
-{
+  {
     id: "game-dev-patterns-ue5",
     title: "Game Development Patterns with Unreal Engine 5",
     author: "Alex Forsythe",
@@ -7,7 +7,7 @@ export default [
     tags: ["Unreal Engine 5", "Game Development", "Design Patterns", "C++"],
     img: "/images/books/game-dev-patterns-ue5.jpg",
     link: "https://www.goodreads.com/book/show/120818693",
-    progress: 10
+    progress: 30
   },
   {
     id: "game-engine-architecture",

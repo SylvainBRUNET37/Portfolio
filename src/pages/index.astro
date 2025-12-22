@@ -82,7 +82,25 @@ import ProjectCard from "../components/ProjectCard.jsx";
 
       <!-- CV cards -->
       <div class="mt-6">
-        <div class="grid gap-4 sm:grid-cols-2 max-w-xl mx-auto">
+        <div class="grid gap-4 sm:grid-cols-3 mx-auto">
+          <!-- CV CA -->
+          <a
+            href="documents/cv-sylvain-brunet-ca.pdf"
+            target="_blank"
+            class="group flex items-center gap-4 rounded-xl border p-6 transition
+                   hover:border-gray-400 hover:bg-gray-50"
+          >
+            <img
+              src="images/icons/ca.png"
+              alt="CV Quebec"
+              class="h-8 w-8 transition group-hover:scale-110"
+            />
+            <div class="text-left">
+              <div class="text-lg font-medium">CV - Canadien (FR)</div>
+              <p class="text-sm text-gray-500">PDF version</p>
+            </div>
+          </a>
+
           <!-- CV FR -->
           <a
             href="documents/cv-sylvain-brunet-fr.pdf"
@@ -96,7 +114,7 @@ import ProjectCard from "../components/ProjectCard.jsx";
               class="h-8 w-8 transition group-hover:scale-110"
             />
             <div class="text-left">
-              <div class="text-lg font-medium">CV - French</div>
+              <div class="text-lg font-medium">CV - Français</div>
               <p class="text-sm text-gray-500">PDF version</p>
             </div>
           </a>

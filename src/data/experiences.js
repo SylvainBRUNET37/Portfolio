@@ -7,7 +7,7 @@ export default
     description: [
         "Participation in a client project as part of a team, aimed at making an Agileo framework usable in different programming languages.",
          "Regular delivery of C# features in a client-server architecture, with implementation of unit tests and code reviews.",
-         "Add the end of the internship, development of a prototype for IoT applications for a similar gateway using OPC-UA.",
+         "At the end of the internship, development of a prototype for IoT applications for a similar gateway using OPC-UA.",
     ],
     tech: [
       "C#",
