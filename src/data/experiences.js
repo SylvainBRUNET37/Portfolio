@@ -2,12 +2,14 @@ export default
 [
   {
     id: "agileo",
-    title: "Software Programmer Intern - Development of communication gateways between industrial equipment and factory control systems",
+    title: "Software Programmer Intern",
     period: "April 2025 - August 2025",
+    summary: "Development of communication gateways between industrial equipment and factory control systems",
     description: [
+        "",
         "Participation in a client project as part of a team, aimed at making an Agileo framework usable in different programming languages.",
-         "Regular delivery of C# features in a client-server architecture, with implementation of unit tests and code reviews.",
-         "At the end of the internship, development of a prototype for IoT applications for a similar gateway using OPC-UA.",
+        "Regular delivery of C# features in a client-server architecture, with implementation of unit tests and code reviews.",
+        "At the end of the internship, development of a prototype for IoT applications for a similar gateway using OPC-UA.",
     ],
     tech: [
       "C#",
@@ -25,13 +27,14 @@ export default
       "Industrial Automation",
       "Semiconductor"
     ],
-    img: "/images/experiences/agileo1.png",
-    link: "https://www.agileo.com/en/solutions/products/agilgem300-extended-connectivity-gem300-automation"
+    link: "https://www.agileo.com/en/solutions/products/agilgem300-extended-connectivity-gem300-automation",
+    company: "Agileo Automation"
   },
   {
     id: "univ-tours",
-    title: "Software Programmer Intern - Data Management & Analysis",
+    title: "Software Programmer Intern",
     period: "May 2022 - July 2022",
+    summary: "Implementation of a database and development of a calculation tool for data processing in C++",
     description: [
         "Design and implementation of a database and development of a calculation tool for data exploitation.",
         "Made the needs analysis, software design, database modeling, and automation of data extraction and storage from spreadsheet files."
@@ -44,7 +47,7 @@ export default
         "Excel",
         "Access Database"
     ],
-    img: "/images/experiences/univ-tours.jpg",
-    link: "https://www.univ-tours.fr/"
+    link: "https://www.univ-tours.fr/",
+    company: "University of Tours"
   }
 ];

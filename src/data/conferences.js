@@ -259,6 +259,10 @@ export default [
         title: "Latest and Greatest in Visual Studio for C++ Developers 2018 (CppCon 2018)",
         youtube: "https://www.youtube.com/watch?v=6NAAuxWNhk4",
       },
+      {
+        title: "Why Is My C++ Build So Slow? Compilation Profiling and Visualization - Samuel Privett - CppCon 2024",
+        youtube: "https://www.youtube.com/watch?v=Oih3K-3eZ4Y",
+      },
     ],
   },
 
