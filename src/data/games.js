@@ -6,7 +6,7 @@ export default
   },
   {
     img: "/images/games/dark-souls.jpg",
-    link: "https://en.bandainamcoent.eu/dark-souls/dark-souls-remastered",
+    link: "https://en.bandainamcoent.eu/dark-souls/dark-souls-iii",
   },
   {
     img: "/images/games/v-rising.jpg",
@@ -30,7 +30,7 @@ export default
   },
   {
     img: "/images/games/civilization.jpg",
-    link: "https://civilization.com/civilization-vi/",
+    link: "https://civilization.2k.com/civ-vi/",
   },
   {
     img: "/images/games/might-and-magic.jpg",

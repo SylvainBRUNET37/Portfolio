@@ -13,7 +13,7 @@ export default
     id: "need4fish",
     title: "FishEngine & Need4Fish - Homemade game engine for an underwater game",
     period: "September 2025 - December 2025",
-    description: "Development of a homemade game engine, applied to an underwater time-trial racing game, developed in a team of 4.",
+    description: "Development of a homemade game engine, applied to an underwater game, developed in a team of 4.",
     tech: ["DX11", "Shaders (HLSL)", "C++", "JoltPhysics", "Profiling", "Blender", "Git"],
     img: "/images/projects/need4fish.png",
     link: "https://github.com/SylvainBRUNET37/FishEngine"

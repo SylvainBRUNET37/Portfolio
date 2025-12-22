@@ -362,7 +362,7 @@ export default [
       youtube: "https://www.youtube.com/watch?v=4B00hV3wmMY",
     },
     {
-      title: "Parallelizing the Naughty Dog Engine Using Fibers ",
+      title: "Parallelizing the Naughty Dog Engine Using Fibers",
       youtube: "https://www.youtube.com/watch?v=HIVBhKj7gQU",
     },
     {
@@ -370,8 +370,12 @@ export default [
       youtube: "https://www.youtube.com/watch?v=X673tOi8pU8",
     },
     {
-      title: "I Wish I Learned This Sooner! | Unreal Fest 2024 ",
+      title: "I Wish I Learned This Sooner! | Unreal Fest 2024",
       youtube: "https://www.youtube.com/watch?v=m0T8euG9Rh8",
+    },    
+	{
+      title: "A House Built on Sand: Engineering Stable and Reliable AI",
+      youtube: "https://www.youtube.com/watch?v=OBusUGlnmWI",
     },
   ],
 },

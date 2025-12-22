@@ -1,5 +1,15 @@
 export default [
   {
+    id: "cpp-concurrency",
+    title: "C++ Concurrency in Action (2nd Edition)",
+    author: "Anthony Williams",
+    description: "A guide to modern C++ concurrency, covering the C++11/14/17 memory model, multithreading, synchronization, and lock-free programming techniques.",
+    tags: ["C++", "Concurrency", "Multithreading", "Performance"],
+    img: "/images/books/cpp-concurrency.png",
+    link: "https://www.goodreads.com/book/show/6813247",
+    progress: 10
+  },
+  {
     id: "game-dev-patterns-ue5",
     title: "Game Development Patterns with Unreal Engine 5",
     author: "Alex Forsythe",
@@ -13,7 +23,7 @@ export default [
     id: "game-engine-architecture",
     title: "Game Engine Architecture (3rd Edition)",
     author: "Jason Gregory",
-    description: "A comprehensive guide to the architecture of modern game engines.",
+    description: "A guide to the architecture of modern game engines.",
     tags: ["Game Engines", "Architecture", "C++", "Game Development"],
     img: "/images/books/game-engine-architecture.jpg",
     link: "https://www.goodreads.com/book/show/6709076",
