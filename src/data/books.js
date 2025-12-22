@@ -91,7 +91,7 @@ export default [
   },
   {
     id: "art-of-unit-testing",
-    title: "The Art of Unit Testing",
+    title: "The Art of Unit Testing (2nd Edition)",
     author: "Roy Osherove",
     description: "A practical guide to unit testing, with examples in C#.",
     tags: ["Testing", "Unit Testing", "C#", "Best Practices"],
