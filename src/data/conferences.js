@@ -1,6 +1,6 @@
 export default [
   {
-    section: "MIGS 2025",
+    section: "MIGS 2025 Conferences I Attended in Person",
     conferences: [
       {
         title: "The Combat of 'Clair Obscur: Expedition 33' - Michel Nohra",
@@ -24,7 +24,7 @@ export default [
         title: "Building and Operating Teams with a Live Service Mentality - Matt Lee",
       },
       {
-        title: "Rethinking External Asset Creation in the Assassin’s Creed Franchise - Erika Benacka",
+        title: "Rethinking External Asset Creation in the Assassin's Creed Franchise - Erika Benacka",
       },
       {
         title: "A Chat with Behaviour Interactive and AWS: Mastering Global Game Launches - Rémi Veilleux & Stephen Oliver",
@@ -63,12 +63,6 @@ export default [
         title: "Better Code with C++ Attributes - Ben Saks - CppCon 2019",
         youtube: "https://www.youtube.com/watch?v=teUA5U6eYQY",
       },
-    ],
-  },
-
-  {
-    section: "Memory Management & Special Members",
-    conferences: [
       {
         title: "Lifetime Management in C++ - Phil Nash (CppCon 2024)",
         youtube: "https://www.youtube.com/watch?v=aMvIv6blzBs",
@@ -84,6 +78,46 @@ export default [
       {
         title: "RAII in C++ - Andre Kostur (CppCon 2022)",
         youtube: "https://www.youtube.com/watch?v=Rfu06XAhx90",
+      },
+      {
+        title: "Type Erasure - Arthur O'Dwyer (CppCon 2019)",
+        youtube: "https://www.youtube.com/watch?v=tbUCHifyT24",
+      },
+      {
+        title: "Using Modern C++ to Eliminate Virtual Functions - Jonathan Gopel (CppCon 2022)",
+        youtube: "https://www.youtube.com/watch?v=gTNJXVmuRRA",
+      },
+      {
+        title: "Lambdas - Nicolai Josuttis (CppCon 2021)",
+        youtube: "https://www.youtube.com/watch?v=IgNUBw3vcO4",
+      },
+            {
+        title: "Effective Ranges - Jeff Garland (CppCon 2023)",
+        youtube: "https://www.youtube.com/watch?v=QoaVRQvA6hI",
+      },
+      {
+        title: "Iterators in C++ - Nicolai Josuttis (CppCon 2023)",
+        youtube: "https://www.youtube.com/watch?v=26aW6aBVpk0",
+      },
+      {
+        title: "(Range) Algorithms in C++ - Klaus Iglberger (CppCon 2023)",
+        youtube: "https://www.youtube.com/watch?v=eJCA2fynzME",
+      },
+      {
+        title: "105 STL Algorithms in Less Than an Hour - Jonathan Boccara (CppCon 2018)",
+        youtube: "https://www.youtube.com/watch?v=2olsGf6JIkU",
+      },
+      {
+        title: "Implement the C++ Standard Library: Design, Optimisations, Testing while Implementing Libc++",
+        youtube: "https://www.youtube.com/watch?v=iw8hqKftP4I",
+      },
+      {
+        title: "Branchless Programming - Fedor Pikus (CppCon 2021)",
+        youtube: "https://www.youtube.com/watch?v=g-WPhYREFjk",
+      },
+      {
+        title: "Can C++ Be 10x Simpler & Safer? - Herb Sutter (CppCon 2022)",
+        youtube: "https://www.youtube.com/watch?v=ELeZAKCN4tY",
       },
     ],
   },
@@ -135,31 +169,7 @@ export default [
   },
 
   {
-    section: "Type Erasure & Virtual Functions",
-    conferences: [
-      {
-        title: "Type Erasure - Arthur O'Dwyer (CppCon 2019)",
-        youtube: "https://www.youtube.com/watch?v=tbUCHifyT24",
-      },
-      {
-        title: "Using Modern C++ to Eliminate Virtual Functions - Jonathan Gopel (CppCon 2022)",
-        youtube: "https://www.youtube.com/watch?v=gTNJXVmuRRA",
-      },
-    ],
-  },
-
-  {
-    section: "Lambdas & Functional Programming",
-    conferences: [
-      {
-        title: "Lambdas - Nicolai Josuttis (CppCon 2021)",
-        youtube: "https://www.youtube.com/watch?v=IgNUBw3vcO4",
-      },
-    ],
-  },
-
-  {
-    section: "Testing & Quality",
+    section: "Testing",
     conferences: [
       {
         title: "Test Driven C++ - Phil Nash (CppCon 2020)",
@@ -185,7 +195,7 @@ export default [
   },
 
   {
-    section: "Compilation, Linking & Tooling",
+    section: "Compilation, Linking, Tooling & Debugging",
     conferences: [
       {
         title: "Compiling and Linking - Ben Saks (CppCon 2021)",
@@ -217,35 +227,9 @@ export default [
         title: "Wait-free Algorithms in C++ - Daniel Anderson (CppCon 2024)",
         youtube: "https://www.youtube.com/watch?v=kPh8pod0-gk",
       },
-    ],
-  },
-
-  {
-    section: "Coroutines, Ranges & Modern C++",
-    conferences: [
-      {
+            {
         title: "C++20 Coroutines for Beginners - Andreas Fertig (CppCon 2022)",
         youtube: "https://www.youtube.com/watch?v=8sEe-4tig_A",
-      },
-      {
-        title: "Effective Ranges - Jeff Garland (CppCon 2023)",
-        youtube: "https://www.youtube.com/watch?v=QoaVRQvA6hI",
-      },
-      {
-        title: "Iterators in C++ - Nicolai Josuttis (CppCon 2023)",
-        youtube: "https://www.youtube.com/watch?v=26aW6aBVpk0",
-      },
-      {
-        title: "(Range) Algorithms in C++ - Klaus Iglberger (CppCon 2023)",
-        youtube: "https://www.youtube.com/watch?v=eJCA2fynzME",
-      },
-      {
-        title: "105 STL Algorithms in Less Than an Hour - Jonathan Boccara (CppCon 2018)",
-        youtube: "https://www.youtube.com/watch?v=2olsGf6JIkU",
-      },
-      {
-        title: "Implement the C++ Standard Library: Design, Optimisations, Testing while Implementing Libc++",
-        youtube: "https://www.youtube.com/watch?v=iw8hqKftP4I",
       },
     ],
   },
@@ -281,17 +265,7 @@ export default [
   },
 
   {
-    section: "Performance & Low-Level Optimization",
-    conferences: [
-      {
-        title: "Branchless Programming - Fedor Pikus (CppCon 2021)",
-        youtube: "https://www.youtube.com/watch?v=g-WPhYREFjk",
-      },
-    ],
-  },
-
-  {
-    section: "Data-Oriented Design & Game Development",
+    section: "Data-Oriented Design",
     conferences: [
       {
         title: "Data-Oriented Design and C++ - Mike Acton (CppCon 2014)",
@@ -319,10 +293,6 @@ export default [
 {
   section: "Other",
   conferences: [
-    {
-      title: "Can C++ Be 10x Simpler & Safer? - Herb Sutter (CppCon 2022)",
-      youtube: "https://www.youtube.com/watch?v=ELeZAKCN4tY",
-    },
     {
       title: "Data Oriented Design and Entity Component System Explained - Mathieu Ropert - ACCU 2024",
       youtube: "https://www.youtube.com/watch?v=xm4AQj5PHT4",
