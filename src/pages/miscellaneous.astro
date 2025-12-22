@@ -67,7 +67,7 @@ import ConferenceCard from "../components/ConferenceCard.jsx";
               </span>
             </summary>
 
-            <div class="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <div class="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-5">
               {section.conferences.map(conf => (
                 <ConferenceCard conference={conf} client:idle />
               ))}
