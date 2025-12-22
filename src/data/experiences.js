@@ -2,7 +2,7 @@ export default
 [
   {
     id: "agileo",
-    title: "Development of communication gateways between industrial equipment and factory control systems",
+    title: "Software Programmer Intern - Development of communication gateways between industrial equipment and factory control systems",
     period: "April 2025 - August 2025",
     description: [
         "Participation in a client project as part of a team, aimed at making an Agileo framework usable in different programming languages.",
@@ -20,7 +20,7 @@ export default
       "Client-Server Architecture",
       "Git",
       "Azure DevOps",
-      "Visual Studio 2022",
+      "Visual Studio",
       "ReSharper",
       "Industrial Automation",
       "Semiconductor"
@@ -30,7 +30,7 @@ export default
   },
   {
     id: "univ-tours",
-    title: "Software Development Intern – Data Management & Analysis",
+    title: "Software Programmer Intern - Data Management & Analysis",
     period: "May 2022 - July 2022",
     description: [
         "Design and implementation of a database and development of a calculation tool for data exploitation.",
