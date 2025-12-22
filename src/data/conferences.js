@@ -1,5 +1,38 @@
 export default [
   {
+    section: "MIGS 2025",
+    conferences: [
+      {
+        title: "The Combat of 'Clair Obscur: Expedition 33' - Michel Nohra",
+      },
+      {
+        title: "How to Design and Build Killer Game UI - Dave Doherty & Tod Bouris",
+      },
+      {
+        title: "Cheating on My CPU with Distributed Unreal Builds: A UBA Love Story - Mike Seese",
+      },
+      {
+        title: "Monument Valley 3 - Tonality, Playfulness and Meaningful Sonic Interaction - Todd Baker",
+      },
+      {
+        title: "Beyond Surface Metrics: Uncovering the Human Behind Player Behavior - Andrew Pappas",
+      },
+      {
+        title: "Mastering Multiplayer: Trends, Tools, and Creative Pathways - Mark Val",
+      },
+      {
+        title: "Building and Operating Teams with a Live Service Mentality - Matt Lee",
+      },
+      {
+        title: "Rethinking External Asset Creation in the Assassin’s Creed Franchise - Erika Benacka",
+      },
+      {
+        title: "A Chat with Behaviour Interactive and AWS: Mastering Global Game Launches - Rémi Veilleux & Stephen Oliver",
+      },
+    ]
+  },
+
+  {
     section: "C++ Fundamentals & Language Core",
     conferences: [
       {
@@ -17,10 +50,6 @@ export default [
       {
         title: "Templates in C++ - Nicolai Josuttis (CppCon 2022)",
         youtube: "https://www.youtube.com/watch?v=HqsEHG0QJXU",
-      },
-      {
-        title: "Concepts in C++ - Nicolai Josuttis (CppCon 2024)",
-        youtube: "https://www.youtube.com/watch?v=jzwqTi7n-rg",
       },
       {
         title: "To Int or to Uint, This is the Question - Alex Dathskovsky (CppCon 2024)",
@@ -287,13 +316,93 @@ export default [
     ],
   },
 
-  {
-    section: "Other",
-    conferences: [
-      {
-        title: "Can C++ Be 10x Simpler & Safer? - Herb Sutter (CppCon 2022)",
-        youtube: "https://www.youtube.com/watch?v=ELeZAKCN4tY",
-      },
-    ],
-  },
+{
+  section: "Other",
+  conferences: [
+    {
+      title: "Can C++ Be 10x Simpler & Safer? - Herb Sutter (CppCon 2022)",
+      youtube: "https://www.youtube.com/watch?v=ELeZAKCN4tY",
+    },
+    {
+      title: "Data Oriented Design and Entity Component System Explained - Mathieu Ropert - ACCU 2024",
+      youtube: "https://www.youtube.com/watch?v=xm4AQj5PHT4",
+    },
+    {
+      title: "Challenges and Benefits of Upgrading Sea of Thieves From C++14 to C++20 - Keith Stockdale ACCU 2025",
+      youtube: "https://www.youtube.com/watch?v=Nm9-xKsZoNI",
+    },
+    {
+      title: "The Power Of Compile-Time Resources - Jason Turner - CppNorth 2022",
+      youtube: "https://www.youtube.com/watch?v=3aRZZxpJ_fc",
+    },
+    {
+      title: "C++ RVO: Return Value Optimization for Performance in Bloomberg C++ Codebases - Michelle Fae D'Souza",
+      youtube: "https://www.youtube.com/watch?v=WyxUilrR6fU",
+    },
+    {
+      title: "Mathieu Ropert - Heaps Don't Lie: Guidelines for Memory Allocation in C++",
+      youtube: "https://www.youtube.com/watch?v=k2XBx9CNHLE",
+    },
+    {
+      title: "COMP4300 - Game Programming - Lecture 05 - Entity Manager + 2D Game Math",
+      youtube: "https://www.youtube.com/watch?v=1B3p2DOkso4",
+    },
+    {
+      title: "COMP4300 - Game Programming - Lecture 04 - Intro to ECS in C++ (Entities, Components, Systems)",
+      youtube: "https://www.youtube.com/watch?v=8_DeUkjQcSU",
+    },
+    {
+      title: " C++Now 2018: Allan Deutsch Game Engine API Design",
+      youtube: "https://www.youtube.com/watch?v=W3ViIBnTTKA",
+    },
+    {
+      title: "GDC Replay Technology in 'Overwatch'_ Kill Cam, Gameplay, and Highlights",
+      youtube: "https://www.youtube.com/watch?v=A5KW5d15J7I",
+    },
+    {
+      title: "Three Statistical Tests Every Game Developer Should Know",
+      youtube: "https://www.youtube.com/watch?v=fl9V0U2SGeI",
+    },
+    {
+      title: "Independent Games Summit: A Case for Making Your Own Engine",
+      youtube: "https://www.youtube.com/watch?v=Qj6dCd8KPKc",
+    },
+    {
+      title: "50 Game Camera Mistakes",
+      youtube: "https://www.youtube.com/watch?v=C7307qRmlMI",
+    },
+    {
+      title: "DOOM: Behind the Music",
+      youtube: "https://www.youtube.com/watch?v=U4FNBMZsqrY",
+    },
+    {
+      title: "The Facial Animation Pipeline of 'Marvel's Guardians of the Galaxy'",
+      youtube: "https://www.youtube.com/watch?v=6bOfLEVy5Qo",
+    },
+    {
+      title: "Adopting Continuous Delivery (In Sea of Thieves)",
+      youtube: "https://www.youtube.com/watch?v=cKfz2nEgaX8",
+    },
+    {
+      title: "Everyone Watching This Is Fired: Tips for Game Industry Programmers",
+      youtube: "https://www.youtube.com/watch?v=cV5HArLYajE",
+    },
+    {
+      title: "Solving the Right Problems for Engine Programmers - Mike Acton (TGC 2017)",
+      youtube: "https://www.youtube.com/watch?v=4B00hV3wmMY",
+    },
+    {
+      title: "Parallelizing the Naughty Dog Engine Using Fibers ",
+      youtube: "https://www.youtube.com/watch?v=HIVBhKj7gQU",
+    },
+    {
+      title: "Automated Testing of Gameplay Features in 'Sea of Thieves'",
+      youtube: "https://www.youtube.com/watch?v=X673tOi8pU8",
+    },
+    {
+      title: "I Wish I Learned This Sooner! | Unreal Fest 2024 ",
+      youtube: "https://www.youtube.com/watch?v=m0T8euG9Rh8",
+    },
+  ],
+},
 ];
