@@ -9,7 +9,7 @@ export default function Navbar() {
         </a>
 
         <div className="space-x-4">
-          <a href={`${base}#projects`}>Main page</a>
+          <a href={`${base}/`}>Main page</a>
           <a href={`${base}experiences/`}>Experiences</a>
           <a href={`${base}projects/`}>Projects</a>
           <a href={`${base}miscellaneous/`}>Miscellaneous</a>
