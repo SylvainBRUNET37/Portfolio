@@ -7,7 +7,7 @@ export default function ProjectCard({ project }) {
     <a href={project.link || "#"} className="pcard">
       <div className="pcard-media">
         <img
-          src={`${base}${project.img.replace(/^\//, "")}`}
+          src={`${base}${project.img}`}
           alt={project.title}
           className="pcard-img"
         />

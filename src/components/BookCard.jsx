@@ -1,7 +1,7 @@
 import "/src/styles/book-card.css";
 
 export default function BookCard({ book }) {
-  const finished = book.progress === 100;
+  const base = import.meta.env.BASE_URL;
 
   return (
     <a
@@ -11,7 +11,10 @@ export default function BookCard({ book }) {
       rel="noopener noreferrer"
     >
       <div className="bcard-media">
-        <img src={book.img} alt={book.title} />
+        <img
+          src={`${base}${book.img.replace(/^\//, "")}`}
+          alt={book.title}
+        />
       </div>
 
       <div className="bcard-body">

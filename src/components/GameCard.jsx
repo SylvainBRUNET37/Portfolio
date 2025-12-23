@@ -1,6 +1,8 @@
 import "/src/styles/game-card.css";
 
 export default function GameCard({ game }) {
+  const base = import.meta.env.BASE_URL;
+
   return (
     <a
       href={game.link}
@@ -9,7 +11,7 @@ export default function GameCard({ game }) {
       className="game-frame w-full"
     >
       <img
-        src={game.img}
+        src={`${base}${game.img.replace(/^\//, "")}`}
         alt=""
         loading="lazy"
       />
