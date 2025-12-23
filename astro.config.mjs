@@ -5,6 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   site: 'https://sylvainbrunet37.github.io',
   base: '/Portfolio/',
+  output: 'static',
 
   integrations: [react()],
 
