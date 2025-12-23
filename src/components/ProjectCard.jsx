@@ -1,10 +1,16 @@
 import "/src/styles/project-card.css";
 
 export default function ProjectCard({ project }) {
+  const base = import.meta.env.BASE_URL;
+
   return (
     <a href={project.link || "#"} className="pcard">
       <div className="pcard-media">
-        <img src={project.img} alt={project.title} className="pcard-img" />
+        <img
+          src={`${base}${project.img.replace(/^\//, "")}`}
+          alt={project.title}
+          className="pcard-img"
+        />
       </div>
 
       <div className="pcard-body">
