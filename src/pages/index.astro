@@ -3,6 +3,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import Hero from "../components/Hero.jsx";
 import projects from "../data/projects.js";
 import ProjectCard from "../components/ProjectCard.jsx";
+
+const base = import.meta.env.BASE_URL;
 ---
 
 <BaseLayout>
@@ -33,7 +35,7 @@ import ProjectCard from "../components/ProjectCard.jsx";
                  hover:border-gray-400 hover:bg-gray-50"
         >
           <img
-            src="/images/icons/linkedin.png"
+            src={`${base}/images/icons/linkedin.png`}
             alt="LinkedIn"
             class="h-8 w-8 transition group-hover:scale-110"
           />
@@ -49,7 +51,7 @@ import ProjectCard from "../components/ProjectCard.jsx";
                  hover:border-gray-400 hover:bg-gray-50"
         >
           <img
-            src="/images/icons/gmail.png"
+            src={`${base}/images/icons/gmail.png`}
             alt="Email"
             class="h-8 w-8 transition group-hover:scale-110"
           />
@@ -68,7 +70,7 @@ import ProjectCard from "../components/ProjectCard.jsx";
                  hover:border-gray-400 hover:bg-gray-50"
         >
           <img
-            src="/images/icons/github.png"
+            src={`${base}/images/icons/github.png`}
             alt="GitHub"
             class="h-8 w-8 transition group-hover:scale-110"
           />
@@ -83,13 +85,13 @@ import ProjectCard from "../components/ProjectCard.jsx";
         <div class="grid gap-4 sm:grid-cols-3 mx-auto">
           <!-- CV QC -->
           <a
-            href="documents/cv-sylvain-brunet-ca.pdf"
+            href={`${base}documents/cv-sylvain-brunet-ca.pdf`}
             target="_blank"
             class="group flex items-center gap-4 rounded-xl border p-6 transition
                    hover:border-gray-400 hover:bg-gray-50"
           >
             <img
-              src="/images/icons/qc.png"
+              src={`${base}/images/icons/qc.png`}
               alt="CV Quebec"
               class="h-8 w-8 transition group-hover:scale-110"
             />
@@ -100,13 +102,13 @@ import ProjectCard from "../components/ProjectCard.jsx";
 
           <!-- CV FR -->
           <a
-            href="documents/cv-sylvain-brunet-fr.pdf"
+            href={`${base}documents/cv-sylvain-brunet-fr.pdf`}
             target="_blank"
             class="group flex items-center gap-4 rounded-xl border p-6 transition
                    hover:border-gray-400 hover:bg-gray-50"
           >
             <img
-              src="/images/icons/fr.png"
+              src={`${base}/images/icons/fr.png`}
               alt="CV French"
               class="h-8 w-8 transition group-hover:scale-110"
             />
@@ -117,13 +119,13 @@ import ProjectCard from "../components/ProjectCard.jsx";
 
           <!-- CV EN -->
           <a
-            href="documents/cv-sylvain-brunet-en.pdf"
+            href={`${base}documents/cv-sylvain-brunet-en.pdf`}
             target="_blank"
             class="group flex items-center gap-4 rounded-xl border p-6 transition
                    hover:border-gray-400 hover:bg-gray-50"
           >
             <img
-              src="/images/icons/en.png"
+              src={`${base}/images/icons/en.png`}
               alt="CV English"
               class="h-8 w-8 transition group-hover:scale-110"
             />
