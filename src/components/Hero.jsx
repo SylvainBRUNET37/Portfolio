@@ -3,10 +3,10 @@ export default function Hero() {
     <section className="py-12">
       <h1 className="text-4xl font-bold">Hi!</h1>
       <p className="mt-4 text-lg">
-        I am a french computer science student specializing in video game programming, currently studying in Montreal, Canada. 
+        I am a French computer science student specializing in video game programming, currently studying in Montreal, Canada. 
         I have a strong interest in C++, software architecture and performance optimization. 
         I actively follow the field by watching technical conferences and by regularly reading computer science books.
-        I am currently seeking a final-year programmer internship in the game industry, starting in May 2026 or later.
+        I am looking for an end-of-studies internship as a programmer in the video game industry starting in May 2026, with a preference for core positions (engine, tools, systems).
       </p>
     </section>
   );
