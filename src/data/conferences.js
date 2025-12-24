@@ -263,6 +263,10 @@ export default [
         title: "Why Is My C++ Build So Slow? Compilation Profiling and Visualization - Samuel Privett - CppCon 2024",
         youtube: "https://www.youtube.com/watch?v=Oih3K-3eZ4Y",
       },
+      {
+        title: "Improving C++ Compilation Times: Tools & Techniques - Vittorio Romeo - ACCU 2023",
+        youtube: "https://www.youtube.com/watch?v=PfHD3BsVsAM",
+      },
     ],
   },
 
@@ -366,6 +370,20 @@ export default [
 	  {
       title: "A House Built on Sand: Engineering Stable and Reliable AI",
       youtube: "https://www.youtube.com/watch?v=OBusUGlnmWI",
+    },
+  ]
+},
+
+{
+  section: "Rendering",
+  conferences: [
+	{
+      title: "Intro to GPU Occlusion",
+      youtube: "https://www.youtube.com/watch?v=gCPgpvF1rUA",
+    },
+	{
+      title: "Volumetric Fog in Enshrouded",
+      youtube: "https://www.youtube.com/watch?v=OR8HbFnQdlk",
     },
   ]
 },

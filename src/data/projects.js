@@ -111,7 +111,7 @@ export default
     id: "connect4",
     title: "Connect Four Game with Graphical Interface",
     period: "December 2023 - January 2024",
-    description: "Classic Connect4 game developed in Python featuring a graphical user interface built with Tkinter.",
+    description: "Classic Connect4 game developed in Python with a graphical user interface built with Tkinter.",
     tech: [
       "Python",
       "Graphical User Interface",
@@ -124,7 +124,7 @@ export default
     id: "ovl",
     title: "Mobile Application for Vehicle Tracking",
     period: "January 2023 - May 2023",
-    description: "Mobile application designed to locate and monitor a vehicle tracker.",
+    description: "A mobile application designed to locate and monitor a vehicle anti-theft tracking device.",
     tech: [
       "TypeScript",
       "React Native",
