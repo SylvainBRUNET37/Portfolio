@@ -237,6 +237,10 @@ export default [
         title: "Adopting Continuous Delivery (In Sea of Thieves)",
         youtube: "https://www.youtube.com/watch?v=cKfz2nEgaX8",
       },
+      {
+        title: "Automated Testing at Scale in Sea of Thieves | Unreal Fest Europe 2019 | Unreal Engine",
+        youtube: "https://www.youtube.com/watch?v=KmaGxprTUfI",
+      },
     ],
   },
 
@@ -394,7 +398,11 @@ export default [
     {
       title: "I Wish I Learned This Sooner! | Unreal Fest 2024",
       youtube: "https://www.youtube.com/watch?v=m0T8euG9Rh8",
-    },   
+    }, 
+    {
+      title: "Overcoming Common Early Challenges in Unreal Engine | Dev Days 2018 | Unreal Engine",
+      youtube: "https://www.youtube.com/watch?v=2edoacF53F0",
+    }, 
   ]
 },
 

@@ -7,7 +7,7 @@ export default [
     tags: ["C++", "Concurrency", "Multithreading", "Performance"],
     img: "/images/books/cpp-concurrency.png",
     link: "https://www.goodreads.com/book/show/6813247",
-    progress: 10
+    progress: 20
   },
   {
     id: "game-dev-patterns-ue5",
@@ -17,7 +17,7 @@ export default [
     tags: ["Unreal Engine 5", "Game Development", "Design Patterns", "C++"],
     img: "/images/books/game-dev-patterns-ue5.jpg",
     link: "https://www.goodreads.com/book/show/120818693",
-    progress: 30
+    progress: 40
   },
   {
     id: "game-engine-architecture",
@@ -39,6 +39,7 @@ export default [
     link: "https://www.goodreads.com/book/show/8442251",
     progress: 60
   },
+  /*
   {
     id: "pragmatic-programmer",
     title: "The Pragmatic Programmer (20th Anniversary Edition)",
@@ -49,6 +50,7 @@ export default [
     link: "https://www.goodreads.com/book/show/4099",
     progress: 20
   },
+  */
   {
     id: "clean-code",
     title: "Clean Code",
