@@ -403,6 +403,14 @@ export default [
       title: "Overcoming Common Early Challenges in Unreal Engine | Dev Days 2018 | Unreal Engine",
       youtube: "https://www.youtube.com/watch?v=2edoacF53F0",
     }, 
+    {
+      title: "Setting up an Unreal Engine Studio the Epic Way | Unreal Fest 2024",
+      youtube: "https://www.youtube.com/watch?v=102O0FOEzNY",
+    }, 
+    {
+      title: "Dev Iteration: How to Improve Developer Efficiency in Unreal 5.4 | Unreal Fest 2024",
+      youtube: "https://www.youtube.com/watch?v=y98YGAr_Qis",
+    }, 
   ]
 },
 

@@ -7,7 +7,7 @@ export default [
     tags: ["C++", "Concurrency", "Multithreading", "Performance"],
     img: "/images/books/cpp-concurrency.png",
     link: "https://www.goodreads.com/book/show/6813247",
-    progress: 20
+    progress: 25
   },
   {
     id: "game-dev-patterns-ue5",
