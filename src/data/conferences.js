@@ -1,6 +1,6 @@
 export default [
   {
-    section: "MIGS 2025 Conferences I Attended in Person",
+    section: "MIGS 2025",
     conferences: [
       {
         title: "The Combat of 'Clair Obscur: Expedition 33' - Michel Nohra",
@@ -271,6 +271,10 @@ export default [
         title: "Improving C++ Compilation Times: Tools & Techniques - Vittorio Romeo - ACCU 2023",
         youtube: "https://www.youtube.com/watch?v=PfHD3BsVsAM",
       },
+      {
+        title: "Reducing C++ Compilation Times Through Good Design - Andrew Pearcy - ACCU 2024",
+        youtube: "https://www.youtube.com/watch?v=ItcGevumW-8",
+      },
     ],
   },
 
@@ -330,6 +334,10 @@ export default [
     section: "Data-Oriented Design",
     conferences: [
       {
+        title: "Intro to Data Oriented Design for Games",
+        youtube: "https://www.youtube.com/watch?v=WwkuAqObplU",
+      },
+      {
         title: "Data-Oriented Design and C++ - Mike Acton (CppCon 2014)",
         youtube: "https://www.youtube.com/watch?v=rX0ItVEVjHc",
       },
@@ -362,7 +370,7 @@ export default [
         youtube: "https://www.youtube.com/watch?v=xm4AQj5PHT4",
       },
       {
-        title: " C++Now 2018: Allan Deutsch Game Engine API Design",
+        title: "C++Now 2018: Allan Deutsch Game Engine API Design",
         youtube: "https://www.youtube.com/watch?v=W3ViIBnTTKA",
       },
     ],
@@ -371,7 +379,7 @@ export default [
 {
   section: "AI",
   conferences: [
-	  {
+	{
       title: "A House Built on Sand: Engineering Stable and Reliable AI",
       youtube: "https://www.youtube.com/watch?v=OBusUGlnmWI",
     },
@@ -398,6 +406,10 @@ export default [
     {
       title: "I Wish I Learned This Sooner! | Unreal Fest 2024",
       youtube: "https://www.youtube.com/watch?v=m0T8euG9Rh8",
+    },
+    {
+      title: "I Wish I Learned This Sooner! - Part 2 | Unreal Fest Stockholm 2025",
+      youtube: "https://www.youtube.com/watch?v=M1J25jJ79U8",
     }, 
     {
       title: "Overcoming Common Early Challenges in Unreal Engine | Dev Days 2018 | Unreal Engine",
@@ -456,6 +468,10 @@ export default [
     {
       title: "Solving the Right Problems for Engine Programmers - Mike Acton (TGC 2017)",
       youtube: "https://www.youtube.com/watch?v=4B00hV3wmMY",
+    },
+    {
+      title: "Cache-Friendly C++ - Jonathan Müller - CppCon 2025",
+      youtube: "https://www.youtube.com/watch?v=g_X5g3xw43Q",
     },
   ],
 },
