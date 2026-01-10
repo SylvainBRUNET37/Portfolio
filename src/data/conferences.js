@@ -418,10 +418,18 @@ export default [
     {
       title: "Setting up an Unreal Engine Studio the Epic Way | Unreal Fest 2024",
       youtube: "https://www.youtube.com/watch?v=102O0FOEzNY",
-    }, 
+    },
     {
       title: "Dev Iteration: How to Improve Developer Efficiency in Unreal 5.4 | Unreal Fest 2024",
       youtube: "https://www.youtube.com/watch?v=y98YGAr_Qis",
+    },
+    {
+      title: "Working with Data in Unreal Engine 5 | Unreal Fest 2022",
+      youtube: "https://www.youtube.com/watch?v=HOpyZ8552oA",
+    }, 
+    {
+      title: "Making Better Blueprints | Unreal Fest 2022",
+      youtube: "https://www.youtube.com/watch?v=mW0IlgjF-iw",
     }, 
   ]
 },
@@ -472,6 +480,14 @@ export default [
     {
       title: "Cache-Friendly C++ - Jonathan Müller - CppCon 2025",
       youtube: "https://www.youtube.com/watch?v=g_X5g3xw43Q",
+    },
+    {
+      title: "API Structure and Technique: Learnings from C++ Code Review - Ben Deane - CppCon 2025",
+      youtube: "https://www.youtube.com/watch?v=dLsZ3t_kG1U",
+    },
+    {
+      title: "Adventures in SIMD-Thinking (part 1 of 2) - Bob Steagall - CppCon 2020",
+      youtube: "https://www.youtube.com/watch?v=qejTqnxQRcw",
     },
   ],
 },

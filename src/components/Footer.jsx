@@ -14,7 +14,7 @@ export default function Footer() {
           </a>
           {" · "}
           <a
-            href="https://www.linkedin.com/in/sylvain-brunet-807b62331/"
+            href="https://www.linkedin.com/in/sylvainbrunet37/"
             target="_blank"
             className="text-blue-600 hover:underline"
           >

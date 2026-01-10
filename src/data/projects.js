@@ -2,10 +2,10 @@ export default
 [
   {
     id: "ue5-multiplayer",
-    title: "(Coming Soon) 3D Multiplayer Horror Game with Unreal Engine 5",
+    title: "(Ongoing) Mon Ami - 3D Multiplayer Horror Game with Unreal Engine 5",
     period: "January 2026 - May 2026",
-    description: "Development of a 3D multiplayer horror game using Unreal Engine 5 with a team of 5 developers and 1 music artist.",
-    tech: ["Unreal Engine 5", "C++", "Multiplayer", "AI"],
+    description: "Development of a 3D multiplayer horror game using Unreal Engine 5 in a team of 5 developers and 1 audio artist.",
+    tech: ["Unreal Engine 5", "C++", "Multiplayer", "AI", "Git"],
     img: "/images/projects/ue5-multiplayer.png",
     link: "#"
   },
