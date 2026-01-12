@@ -370,8 +370,8 @@ export default [
         youtube: "https://www.youtube.com/watch?v=xm4AQj5PHT4",
       },
       {
-        title: "C++Now 2018: Allan Deutsch Game Engine API Design",
-        youtube: "https://www.youtube.com/watch?v=W3ViIBnTTKA",
+        title: "Cold, Hard Cache Insomniacs Cache Simulator",
+        youtube: "https://www.youtube.com/watch?v=SZOr0m-K5PQ",
       },
     ],
   },
@@ -488,6 +488,14 @@ export default [
     {
       title: "Adventures in SIMD-Thinking (part 1 of 2) - Bob Steagall - CppCon 2020",
       youtube: "https://www.youtube.com/watch?v=qejTqnxQRcw",
+    },
+    {
+      title: "C++Now 2018: Allan Deutsch Game Engine API Design",
+      youtube: "https://www.youtube.com/watch?v=W3ViIBnTTKA",
+    },
+    {
+      title: "Adventures in SIMD-Thinking (part 2 of 2) - Bob Steagall - CppCon 2020",
+      youtube: "https://www.youtube.com/watch?v=qXleSwCCEvY",
     },
   ],
 },

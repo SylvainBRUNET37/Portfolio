@@ -6,7 +6,7 @@ export default function Hero() {
         I am a French computer science student specializing in video game programming, currently studying in Montreal, Canada. 
         I have a strong interest in C++, software architecture and performance optimization. 
         I actively follow the field by watching technical conferences and by regularly reading computer science books.
-        I am looking for a final-year internship of at least 4 months a programmer in the video game industry, starting in May 2026 or later, and with a preference for core positions (engine, tools, systems).
+        I am looking for a final-year internship of at least 4 months a programmer in the video game industry, starting in May 2026 or later.
       </p>
     </section>
   );
