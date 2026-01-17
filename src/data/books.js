@@ -17,7 +17,7 @@ export default [
     tags: ["Unreal Engine 5", "Game Development", "Design Patterns", "C++"],
     img: "/images/books/game-dev-patterns-ue5.jpg",
     link: "https://www.goodreads.com/book/show/120818693",
-    progress: 40
+    progress: 60
   },
   {
     id: "game-engine-architecture",
@@ -52,26 +52,6 @@ export default [
   },
   */
   {
-    id: "clean-code",
-    title: "Clean Code",
-    author: "Robert C. Martin",
-    description: "A guide to mastering clean, clear, and durable code.",
-    tags: ["Software", "Best Practices", "Programming"],
-    img: "/images/books/clean-code.jpg",
-    link: "https://www.goodreads.com/book/show/3735293-clean-code",
-    progress: 100
-  },
-  {
-    id: "clean-architecture",
-    title: "Clean Architecture",
-    author: "Robert C. Martin",
-    description: "A guide to creating maintainable, testable, and scalable software architectures.",
-    tags: ["Architecture", "Software", "Best Practices"],
-    img: "/images/books/clean-architecture.jpg",
-    link: "https://www.goodreads.com/book/show/18043011",
-    progress: 100
-  },
-  {
     id: "design-patterns",
     title: "Design Patterns",
     author: "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
@@ -89,6 +69,26 @@ export default [
     tags: ["Game Development", "Design Patterns", "Architecture"],
     img: "/images/books/game-programming-patterns.jpg",
     link: "https://www.goodreads.com/book/show/15499449",
+    progress: 100
+  },
+  {
+    id: "clean-code",
+    title: "Clean Code",
+    author: "Robert C. Martin",
+    description: "A guide to mastering clean, clear, and durable code.",
+    tags: ["Software", "Best Practices", "Programming"],
+    img: "/images/books/clean-code.jpg",
+    link: "https://www.goodreads.com/book/show/3735293-clean-code",
+    progress: 100
+  },
+  {
+    id: "clean-architecture",
+    title: "Clean Architecture",
+    author: "Robert C. Martin",
+    description: "A guide to creating maintainable, testable, and scalable software architectures.",
+    tags: ["Architecture", "Software", "Best Practices"],
+    img: "/images/books/clean-architecture.jpg",
+    link: "https://www.goodreads.com/book/show/18043011",
     progress: 100
   },
   {

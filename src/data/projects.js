@@ -7,7 +7,7 @@ export default
     description: "Development of a 3D multiplayer horror game using Unreal Engine 5 in a team of 5 developers and 1 audio artist.",
     tech: ["Unreal Engine 5", "C++", "Multiplayer", "AI", "Git"],
     img: "/images/projects/ue5-multiplayer.png",
-    link: "#"
+    link: "https://thomasvanwalleghem.itch.io/game-jam-ue5"
   },
   {
     id: "need4fish",
@@ -31,19 +31,21 @@ export default
     id: "chip8-emulator",
     title: "CHIP-8 Emulator",
     period: "December 2023 - February 2024",
-    description: "A CHIP-8 emulator written in C that includes a virtual CPU and memory management, and is capable of running ROMs of classic games (e.g., Pong, Tetris, etc.).",
-    tech: ["C", "Systems", "Emulation", "CPU Instruction Decoding", "Virtual Machine"],
+    description: "A CHIP-8 emulator written in C capable of running ROMs of classic games (e.g., Pong, Tetris, etc.). The implementation includes a full CHIP-8 pipeline and instruction implementation, a virtual CPU, memory management and more.",
+    tech: ["C", "Systems", "Emulation", "CPU Instruction", "Virtual Machine", "Memory"],
     img: "/images/projects/chip8.png",
     link: "https://github.com/SylvainBRUNET37/chip8-emulator"
   },
     {
     id: "schedule",
-    title: "Schedule Optimization with Genetic Algorithms",
+    title: "Scheduling Problem Solution",
     period: "October 2024 - December 2024",
-    description: "AI scheduling algorithm using a genetic algorithm developed in pairs to create fictitious nurse schedules under 8 constraints and several user preferences.",
+    description: "A scheduling algorithm using a genetic algorithm developed in pairs to create nurse schedules under 8 constraints and several user preferences. The algorithm include heuristic initialization, tournament selection, multiple crossover strategies, mutation, infeasibility repair, and modular fitness evaluation.",
     tech: [
-      "AI",
+      "Problem Solving",
+      "Constrained Optimization Problems Solving",
       "C++",
+      "Algorithms",
       "Genetic Algorithms",
       "Optimization"
     ],
@@ -52,13 +54,14 @@ export default
   },
   {
     id: "passplat",
-    title: "Reusable Food Container Borrowing System for Passplat association",
+    title: "A reusable Food Container Borrowing System for Passplat association",
     period: "October 2024 - March 2025",
     description: "Prototype developed in a team of 5 for a multiplaform mobile application and backend system for an association to manage the borrowing and return of reusable food containers.",
     tech: ["Mobile", "Java", "Spring Boot", "TypeScript", "React Native", "REST API", "SQL", "Database", "Gradle", "Git"],
     img: "/images/projects/passplat.png",
     link: "https://www.youtube.com/shorts/EOsnFFwecBM"
   },
+  /*
   {
     id: "ql-project",
     title: "Quality Driven Web Application",
@@ -135,4 +138,5 @@ export default
     img: "/images/projects/ovl.png",
     link: "#"
   }
+  */
 ];

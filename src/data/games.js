@@ -1,12 +1,12 @@
 export default 
 [
   {
-    img: "/images/games/lies-of-p.jpg",
-    link: "https://liesofp.com",
+    img: "/images/games/bloodborne.jpg",
+    link: "https://www.playstation.com/fr-ca/games/bloodborne/",
   },
   {
-    img: "/images/games/dark-souls.jpg",
-    link: "https://en.bandainamcoent.eu/dark-souls/dark-souls-iii",
+    img: "/images/games/lies-of-p.jpg",
+    link: "https://liesofp.com",
   },
   {
     img: "/images/games/v-rising.jpg",
