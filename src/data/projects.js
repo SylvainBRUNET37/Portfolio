@@ -4,8 +4,8 @@ export default
     id: "ue5-multiplayer",
     title: "(Ongoing) Mon Ami - 3D Multiplayer Horror Game with Unreal Engine 5",
     period: "January 2026 - May 2026",
-    description: "Development of a 3D multiplayer horror game using Unreal Engine 5 in a team of 5 developers and 1 audio artist.",
-    tech: ["Unreal Engine 5", "C++", "Multiplayer", "AI", "Git"],
+    description: "A 3D multiplayer horror game using Unreal Engine 5 in a team of 5 developers and 1 audio artist.",
+    tech: ["Unreal Engine 5", "C++", "Multiplayer", "AI"],
     img: "/images/projects/ue5-multiplayer.png",
     link: "https://thomasvanwalleghem.itch.io/game-jam-ue5"
   },
@@ -13,7 +13,7 @@ export default
     id: "need4fish",
     title: "FishEngine & Need4Fish - Homemade game engine for an underwater game",
     period: "September 2025 - December 2025",
-    description: "Development of a homemade game engine, applied to an underwater game, developed in a team of 4.",
+    description: "A homemade game engine, applied to an underwater game, developed in a team of 4.",
     tech: ["DX11", "Shaders (HLSL)", "C++", "JoltPhysics", "Profiling", "Blender", "Git"],
     img: "/images/projects/need4fish.png",
     link: "https://github.com/SylvainBRUNET37/FishEngine"
@@ -22,8 +22,8 @@ export default
     id: "turn-based-ai",
     title: "AI for a Turn-Based Programming Challenge",
     period: "September 2025 - December 2025",
-    description: "Development of AI algorithms for a turn-based programming challenge with 38 levels.",
-    tech: ["AI", "C++", "A* search", "State machine", "Git"],
+    description: "AI algorithms for a 38-level turn-based programming challenge, combining pathfinding, decision-making architectures, cooperative multi-agent behavior, optimization techniques, and utility-based evaluation.",
+    tech: ["AI", "Problem Solving", "C++", "Algorithms", "A* search", "State machine", "Optimization"],
     img: "/images/projects/ai-turnbased.png",
     link: "https://github.com/Nell15/AI-Bootcamp"
   },
@@ -47,7 +47,8 @@ export default
       "C++",
       "Algorithms",
       "Genetic Algorithms",
-      "Optimization"
+      "Optimization",
+      "Git"
     ],
     img: "/images/projects/schedule.png",
     link: "https://github.com/SylvainBRUNET37/schedule"
