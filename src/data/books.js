@@ -17,7 +17,7 @@ export default [
     tags: ["Unreal Engine 5", "Game Development", "Design Patterns", "C++"],
     img: "/images/books/game-dev-patterns-ue5.jpg",
     link: "https://www.goodreads.com/book/show/120818693",
-    progress: 60
+    progress: 70
   },
   {
     id: "game-engine-architecture",

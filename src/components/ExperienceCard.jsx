@@ -16,7 +16,7 @@ export default function ExperienceCard({ project }) {
             {project.summary && (
               <p className="mt-2 text-sm font-medium text-gray-700 leading-relaxed tracking-wide italic group-hover:text-gray-900 transition-colors duration-300">
                 <span className="relative font-semibold inline-block">
-                <span className="absolute inset-0 -z-10 rounded-md bg-blue-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <span className="absolute inset-0 -z-10 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 {project.summary}
               </span>
               </p>

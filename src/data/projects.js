@@ -1,3 +1,5 @@
+
+
 export default 
 [
   {
@@ -13,8 +15,21 @@ export default
     id: "need4fish",
     title: "FishEngine & Need4Fish - Homemade game engine for an underwater game",
     period: "September 2025 - December 2025",
-    description: "A homemade game engine, applied to an underwater game, developed in a team of 4.",
-    tech: ["DX11", "Shaders (HLSL)", "C++", "JoltPhysics", "Profiling", "Blender", "Git"],
+    description: "A custom 3D game engine built by a team of 4 and used for an underwater game, with a focus on real-time rendering, physics, ECS-based architecture, performance optimization, gameplay and data-oriented design.",
+      tech: [
+      "Custom 3D Game Engine",
+      "C++",
+      "DirectX 11",
+      "Real-Time Rendering",
+      "HLSL Shaders",
+      "Profiling & Optimization",
+      "ECS",
+      "Data-Oriented Design",
+      "Physics Integration",
+      "Asset Pipeline",
+      "Blender",
+      "Git"
+    ],
     img: "/images/projects/need4fish.png",
     link: "https://github.com/SylvainBRUNET37/FishEngine"
   },

@@ -2,7 +2,13 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Hero from "../components/Hero.jsx";
 import projects from "../data/projects.js";
+import experiences from "../data/experiences.js";
+import games from "../data/games.js";
+import books from "../data/books.js";
 import ProjectCard from "../components/ProjectCard.jsx";
+import ExperienceCard from "../components/ExperienceCard.jsx";
+import BookCard from "../components/BookCard";
+import GameCard from "../components/GameCard";
 
 const base = import.meta.env.BASE_URL;
 ---
@@ -12,11 +18,54 @@ const base = import.meta.env.BASE_URL;
 
   <!-- Projects -->
   <section id="projects" class="mt-12">
-    <h2 class="text-2xl font-bold">Recent projects</h2>
+    <h2 class="text-2xl font-bold">Recent/Current projects</h2>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
       {projects.slice(0, 3).map((p) => <ProjectCard project={p} client:load />)}
     </div>
+  </section>
+
+  <!-- Experiences -->
+  <section id="experience" class="mt-12">
+    <h2 class="text-2xl font-bold">Recent experiences</h2>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
+      {experiences.map((exp) => (
+        <ExperienceCard project={exp} client:load />
+      ))}
+    </div>
+  </section>
+
+  <!-- Books -->
+  <section class="mt-12">
+    <details open class="group">
+      <summary class="text-3xl font-bold mb-6 cursor-pointer list-none flex-row items-center justify-between">
+        Recent/Current Lectures
+        <span class="transition-transform group-open:rotate-180">▾</span>
+      </summary>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {books.slice(0, 3).map((book) => (
+          <BookCard book={book} client:idle />
+        ))}
+      </div>
+    </details>
+  </section>
+
+  <!-- Games -->
+  <section class="mt-12">
+    <details class="group" open>
+      <summary class="text-3xl font-bold mb-6 cursor-pointer list-none flex-row items-center justify-between">
+        Favorite Games
+        <span class="transition-transform group-open:rotate-180">▾</span>
+      </summary>
+
+      <div class="grid gap-6 [grid-template-columns:repeat(auto-fit,minmax(180px,1fr))]">
+        {games.slice(0, 6).map((game) => (
+          <GameCard game={game} client:idle />
+        ))}
+      </div>
+    </details>
   </section>
 
   <!-- Contact -->

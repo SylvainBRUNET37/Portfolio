@@ -497,6 +497,18 @@ export default [
       title: "Adventures in SIMD-Thinking (part 2 of 2) - Bob Steagall - CppCon 2020",
       youtube: "https://www.youtube.com/watch?v=qXleSwCCEvY",
     },
+    {
+      title: "Taming the Chaos: Lessons in Project Management",
+      youtube: "https://www.youtube.com/watch?v=M0uuDsjy4b0",
+    },
+    {
+      title: "Best Practices for AI Tool Use in C++ - Jason Turner - CppCon 2025",
+      youtube: "https://www.youtube.com/watch?v=xCuRUjxT5L8",
+    },
+    {
+      title: "Implementing Your Own C++ Atomics - Ben Saks - CppCon 2025",
+      youtube: "https://www.youtube.com/watch?v=LtwQ7xZZIF4",
+    },
   ],
 },
 ];
