@@ -6,8 +6,10 @@ export default
     period: "April 2025 - August 2025",
     summary: "Development of communication gateways between industrial equipment and factory control systems",
     description: [
-        "I joined a team for a project aimed at making an Agileo framework usable in several programming languages. I delivered C# features within a client–server architecture, with unit test implementation and a code review process.",
-        "At the end of the internship, I also developed a prototype for another type of gateway in C#, during which I designed the system architecture and validated the concept through implementation.",
+      "During this internship, I contributed to the development of communication gateways enabling real-time data exchange between equipment and industrial control systems. In this context, I notably:",
+        "- Developed features in C#, including the integration of unit tests within an industrial framework comprising several hundred thousand lines of code",
+        "- Implemented client–server communications based on gRPC and OPC UA",
+        "- Participated in code reviews and applied an agile methodology within the team",
     ],
     tech: [
       "C#",
