@@ -373,13 +373,17 @@ export default [
         title: "Cold, Hard Cache Insomniacs Cache Simulator",
         youtube: "https://www.youtube.com/watch?v=SZOr0m-K5PQ",
       },
+      {
+        title: "code::dive conference 2014 - Scott Meyers: Cpu Caches and Why You Care",
+        youtube: "https://www.youtube.com/watch?v=WDIkqP4JbkE",
+      },
     ],
   },
 
 {
   section: "AI",
   conferences: [
-	{
+	  {
       title: "A House Built on Sand: Engineering Stable and Reliable AI",
       youtube: "https://www.youtube.com/watch?v=OBusUGlnmWI",
     },
@@ -389,13 +393,25 @@ export default [
 {
   section: "Rendering",
   conferences: [
-	{
+	  {
       title: "Intro to GPU Occlusion",
       youtube: "https://www.youtube.com/watch?v=gCPgpvF1rUA",
     },
-	{
+	  {
       title: "Volumetric Fog in Enshrouded",
       youtube: "https://www.youtube.com/watch?v=OR8HbFnQdlk",
+    },
+    {
+      title: "Rendering Rainbow Six Siege",
+      youtube: "https://www.youtube.com/watch?v=RAy8UoO2blc",
+    },
+    {
+      title: "REAC 2025 Anvil Rendering Architecture",
+      youtube: "https://www.youtube.com/watch?v=CcYq18bkvyU",
+    },
+    {
+      title: "Forward and Deferred Rendering - Cambridge Computer Science Talks",
+      youtube: "https://www.youtube.com/watch?v=n5OiqJP2f7w",
     },
   ]
 },
@@ -508,6 +524,34 @@ export default [
     {
       title: "Implementing Your Own C++ Atomics - Ben Saks - CppCon 2025",
       youtube: "https://www.youtube.com/watch?v=LtwQ7xZZIF4",
+    },
+    {
+      title: "It IS Rocket Science! The Physics of Rocket League Detailed",
+      youtube: "https://www.youtube.com/watch?v=ueEmiDM94IE",
+    },
+    {
+      title: "Math for Game Programmers: Juicing Your Cameras With Math",
+      youtube: "https://www.youtube.com/watch?v=tu-Qe66AvtY",
+    },
+    {
+      title: "Anvil - Ubisoft’s engine workflow | Nicolas Lopez",
+      youtube: "https://www.youtube.com/watch?v=vtxXt7E63bQ",
+    },
+    {
+      title: "CppCon 2014: Nicolas Fleury: C++ in Huge AAA Games",
+      youtube: "https://www.youtube.com/watch?v=qYN6eduU06s",
+    },
+    {
+      title: "CppCon 2016: Nicolas Fleury: Rainbow Six Siege: Quest for Performance",
+      youtube: "https://www.youtube.com/watch?v=tD4xRNB0M_Q",
+    },
+    {
+      title: "No Time, No Budget, No Problem: Finishing The First Tree",
+      youtube: "https://www.youtube.com/watch?v=g5f7yixtQPc",
+    },
+    {
+      title: "30 Minute Steam Page Makeovers",
+      youtube: "https://www.youtube.com/watch?v=fATEHq4Zv_Y",
     },
   ],
 },
