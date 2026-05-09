@@ -1,6 +1,28 @@
 export default 
 [
   {
+    id: "ubisoft",
+    title: "3D Programmer Intern",
+    period: "May 2026 - October 2026",
+    summary: "//",
+    description: [
+      "//",
+      "",
+      ""
+    ],
+    tech: [
+      "C++",
+      "HLSL",
+      "Perforce",
+      "Visual Studio",
+      "Rendering",
+      "Agile Methodology",
+      "Team Work",
+    ],
+    link: "https://quebec.ubisoft.com/en",
+    company: "Ubisoft Quebec"
+  },
+  {
     id: "agileo",
     title: "Software Programmer Intern",
     period: "April 2025 - August 2025",

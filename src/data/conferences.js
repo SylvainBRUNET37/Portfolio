@@ -413,6 +413,22 @@ export default [
       title: "Forward and Deferred Rendering - Cambridge Computer Science Talks",
       youtube: "https://www.youtube.com/watch?v=n5OiqJP2f7w",
     },
+    {
+      title: "Forward and Deferred Rendering - Cambridge Computer Science Talks",
+      youtube: "https://www.youtube.com/watch?v=n5OiqJP2f7w",
+    },
+    {
+      title: "Rendering 'Assassin's Creed Shadows'",
+      youtube: "https://www.youtube.com/watch?v=yj5pYktC3X8",
+    },
+    {
+      title: "Adaptive Virtual Texture Rendering in Far Cry 4",
+      youtube: "https://www.youtube.com/watch?v=SVPMhGteeuE",
+    },
+    {
+      title: "Rendering the World of Far Cry 4",
+      youtube: "https://www.youtube.com/watch?v=rD6KcxcCl_8",
+    },
   ]
 },
 
@@ -446,7 +462,15 @@ export default [
     {
       title: "Making Better Blueprints | Unreal Fest 2022",
       youtube: "https://www.youtube.com/watch?v=mW0IlgjF-iw",
-    }, 
+    },
+    {
+      title: "101 Unreal Engine Tips & Tricks: The Reckoning | Unreal Fest Stockholm 2025",
+      youtube: "https://www.youtube.com/watch?v=4w0PWcRwyOc",
+    },
+    {
+      title: "Optimizing UE5: Advanced Rendering, Graphics Performance, and Memory Management | Unreal Fest 2024",
+      youtube: "https://www.youtube.com/watch?v=dj4kNnj4FAQ",
+    },
   ]
 },
 
@@ -552,6 +576,90 @@ export default [
     {
       title: "30 Minute Steam Page Makeovers",
       youtube: "https://www.youtube.com/watch?v=fATEHq4Zv_Y",
+    },
+    {
+      title: "One Frame in 'Halo Infinite'",
+      youtube: "https://www.youtube.com/watch?v=IUiNUky-ibM",
+    },
+    {
+      title: "Thinking Functionally in C++ - Brian Ruth - CppCon 2023",
+      youtube: "https://www.youtube.com/watch?v=6-WH9Hnec1M",
+    },
+    {
+      title: "C++ Program Correctness and its Limitations - David Sankel - C++Now 2025",
+      youtube: "https://www.youtube.com/watch?v=In2elCXQ10A",
+    },
+    {
+      title: "Back to Basics: Const as a Promise - Dan Saks - CppCon 2019",
+      youtube: "https://www.youtube.com/watch?v=NZtr93iL3R0",
+    },
+    {
+      title: "The Art of Destruction in Rainbow Six: Siege",
+      youtube: "https://www.youtube.com/watch?v=SjkQxowsL0I",
+    },
+    {
+      title: "Threads vs Coroutines — Why C++ Has Two Concurrency Models - Conor Spilsbury - CppCon 2025",
+      youtube: "https://www.youtube.com/watch?v=txffplpsSzg",
+    },
+    {
+      title: "Back to Basics - Name Lookup and Overload Resolution in C++ - Mateusz Pusz - CppCon 2022",
+      youtube: "https://www.youtube.com/watch?v=iDX2d7poJnI",
+    },
+    {
+      title: "Back to Basics: Function Call Resolution in C++ - Ben Saks - CppCon 2024",
+      youtube: "https://www.youtube.com/watch?v=ab_RzvGAS1Q",
+    },
+    {
+      title: "Back to Basics: Debugging and Testing in C++ Software Development - Greg Law & Mike Shah - CppCon 24",
+      youtube: "https://www.youtube.com/watch?v=ghurTk_A-Bo",
+    },
+    {
+      title: "The Pattern Matching We Already Have - Braden Ganetsky - CppCon 2025",
+      youtube: "https://www.youtube.com/watch?v=zB6ORpZjneQ",
+    },
+    {
+      title: "Cache Me Maybe: The Performance Secret Every C++ Developer Needs - Michelle D'Souza - CppCon 2025",
+      youtube: "https://www.youtube.com/watch?v=VhKq0nzPTh0",
+    },
+    {
+      title: "Template-less Metaprogramming in C++ - Kris Jusiak - CppCon 2024",
+      youtube: "https://www.youtube.com/watch?v=yriNqhv-oM0",
+    },
+    {
+      title: "Beyond Sequential Consistency: Unlocking Hidden Performance Gains - Christopher Fretz - CppCon 2025",
+      youtube: "https://www.youtube.com/watch?v=6AnHbZbLr2o",
+    },
+    {
+      title: "Back to Basics: C++ Ranges - Mike Shah - CppCon 2025",
+      youtube: "https://www.youtube.com/watch?v=Q434UHWRzI0",
+    },
+    {
+      title: "CTRACK: C++ Performance Tracking and Bottleneck Discovery - Grischa Hauser - CppCon 2025",
+      youtube: "https://www.youtube.com/watch?v=en4OQvZePqg",
+    },
+    {
+      title: "More Speed & Simplicity: Practical Data-Oriented Design in C++ - Vittorio Romeo - CppCon 2025",
+      youtube: "https://www.youtube.com/watch?v=SzjJfKHygaQ",
+    },
+    {
+      title: "C++11/14 at Scale: What Have We Learned? - Vittorio Romeo - CppCon 2021",
+      youtube: "https://www.youtube.com/watch?v=6-1LNGWgy1o",
+    },
+    {
+      title: "Clean code! Horrible Performance? - Sandor Dargo - CppCon 2025",
+      youtube: "https://www.youtube.com/watch?v=nLts4S8xSd4",
+    },
+    {
+      title: "Is Your C++ Code Leaking Memory? Discover the Power of Ownership-Aware Profiling",
+      youtube: "https://www.youtube.com/watch?v=U23WkMWIkkE",
+    },
+    {
+      title: "CppCon 2018:Nicolas Fleury & Mathieu Nayrolles “Better C++ using Machine Learning on Large Projects”",
+      youtube: "https://www.youtube.com/watch?v=QDvic0QNtOY",
+    },
+    {
+      title: "Investigating C++ Legacy Design Trends: Newer Isn’t Always Better! - Katherine Rocha - CppCon 2024",
+      youtube: "https://www.youtube.com/watch?v=ffz4oTMGh5E",
     },
   ],
 },

@@ -1,15 +1,26 @@
-
-
 export default 
 [
   {
-    id: "ue5-multiplayer",
-    title: "(Ongoing) Mon Ami - 3D Multiplayer Horror Game with Unreal Engine 5",
+    id: "mon-ami",
+    title: "Mon Ami - 3D Online Multiplayer Horror Game with Unreal Engine 5",
     period: "January 2026 - May 2026",
-    description: "A 3D multiplayer horror game using Unreal Engine 5 in a team of 5 developers and 1 audio artist.",
-    tech: ["Unreal Engine 5", "C++", "Multiplayer", "AI"],
-    img: "/images/projects/ue5-multiplayer.png",
-    link: "https://thomasvanwalleghem.itch.io/game-jam-ue5"
+    description:
+      "A 3D online multiplayer horror game developed in Unreal Engine 5 by a team of 5 developers and 1 audio artist. Implemented dedicated server multiplayer systems in C++, gameplay mechanics using a data-driven architecture, AI systems, procedural generation systems, and backend features in C#. Integrated Wwise for music and spatialized sounds.",
+    tech: [
+      "Unreal Engine 5",
+      "C++",
+      "Dedicated Server",
+      "Online",
+      "Gameplay Programming",
+      "Data-Driven Systems",
+      "Wwise",
+      "C#",
+      "Game AI",
+      "Procedural Generation",
+      "Gitlab"
+    ],
+    img: "/images/projects/mon-ami.png",
+    link: "https://xyrodp.itch.io/mon-ami"
   },
   {
     id: "need4fish",
@@ -19,7 +30,7 @@ export default
       tech: [
       "Custom 3D Game Engine",
       "C++",
-      "DirectX 11",
+      "DirectX",
       "Real-Time Rendering",
       "HLSL Shaders",
       "Profiling & Optimization",
