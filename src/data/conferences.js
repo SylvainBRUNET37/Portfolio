@@ -429,6 +429,30 @@ export default [
       title: "Rendering the World of Far Cry 4",
       youtube: "https://www.youtube.com/watch?v=rD6KcxcCl_8",
     },
+    {
+      title: "SIGGRAPH 2021 REAC: Roblox (Rendering) Engine Architecture",
+      youtube: "https://www.youtube.com/watch?v=fegbyALcnpI",
+    },
+    {
+      title: "Physically Based and Unified Volumetric Rendering in Frostbite (SIGGRAPH 2015)",
+      youtube: "https://www.youtube.com/watch?v=ddfEnuXZijM",
+    },
+    {
+      title: "Physics and Math of Shading | SIGGRAPH Courses",
+      youtube: "https://www.youtube.com/watch?v=j-A0mwsJRmk",
+    },
+    {
+      title: "RAY TRACING THE WORLD OF ASSASSIN'S CREED SHADOWS (Advances in Real-Time Rendering SIGGRAPH 2025)",
+      youtube: "https://www.youtube.com/watch?v=2K-rwy4aMmU",
+    },
+    {
+      title: "The fog is lifting, volumetric rendering Enshrouded",
+      youtube: "https://www.youtube.com/watch?v=ERcUNJ7_s_s",
+    },
+    {
+      title: "The fog is lifting, volumetric rendering Enshrouded",
+      youtube: "https://www.youtube.com/watch?v=ERcUNJ7_s_s",
+    },
   ]
 },
 
@@ -660,6 +684,62 @@ export default [
     {
       title: "Investigating C++ Legacy Design Trends: Newer Isn’t Always Better! - Katherine Rocha - CppCon 2024",
       youtube: "https://www.youtube.com/watch?v=ffz4oTMGh5E",
+    },
+    {
+      title: "C++: Some Assembly Required - Matt Godbolt - CppCon 2025",
+      youtube: "https://www.youtube.com/watch?v=zoYT7R94S3c",
+    },
+    {
+      title: "Knockin' on Header's Door: An Overview of C++ Modules - Alexsandro Thomas - CppCon 2025",
+      youtube: "https://www.youtube.com/watch?v=fZrDG_he9sE",
+    },
+    {
+      title: "Usability Is Not Random - Mike Acton",
+      youtube: "https://gdcvault.com/play/1017953/Usability-Is-Not",
+    },
+    {
+      title: "Back to Basics: Casting - Brian Ruth - CppCon 2021",
+      youtube: "https://www.youtube.com/watch?v=2h2hdRqRIRk",
+    },
+    {
+      title: "C++ Modules: Getting Started Today - Andreas Weis - CppCon 2023",
+      youtube: "https://www.youtube.com/watch?v=_x9K9_q2ZXE",
+    },
+    {
+      title: "Back to Basics: Debugging in C++ - Mike Shah - CppCon 2022",
+      youtube: "https://www.youtube.com/watch?v=YzIBwqWC6EM",
+    },
+    {
+      title: "Building a Data-Oriented Future - Mike Acton",
+      youtube: "https://www.youtube.com/watch?v=u8B3j8rqYMw",
+    },
+    {
+      title: "Unity at GDC - A Data Oriented Approach to Using Component Systems",
+      youtube: "https://www.youtube.com/watch?v=p65Yt20pw0g",
+    },
+    {
+      title: "Back to the basics: Namespaces 101 - Sandor Dargo - Meeting C++ 2025",
+      youtube: "https://www.youtube.com/watch?v=nHFfm7koAuA",
+    },
+    {
+      title: "Aliasing in C++ - Risks, Opportunities and Techniques - Roi Barkan - CppCon 2022",
+      youtube: "https://www.youtube.com/watch?v=zHkmk1Y-gqM",
+    },
+    {
+      title: "Myth-Busting “Best Practices” in Unreal Engine | Unreal Fest 2024",
+      youtube: "https://www.youtube.com/watch?v=S2olUc9zcB8",
+    },
+    {
+      title: "FrameGraph: Extensible Rendering Architecture in Frostbite by Yuriy O'Donnell (Frostbite / EA) GDC17",
+      youtube: "https://www.youtube.com/watch?v=1Sb3s7Xie4M",
+    },
+    {
+      title: "I'm making a game engine based on dynamic signed distance fields (SDFs)",
+      youtube: "https://www.youtube.com/watch?v=il-TXbn5iMA",
+    },
+    {
+      title: "Unreal Engine 5 Beginner Tutorial - UE5 Starter Course",
+      youtube: "https://www.youtube.com/watch?v=k-zMkzmduqI",
     },
   ],
 },

@@ -7,7 +7,7 @@ export default [
     tags: ["Real-Time Rendering", "Computer Graphics", "3D", "GPU", "PBR", "Game Engine", "Shaders"],
     img: "/images/books/real-time-rendering.jpg",
     link: "https://www.goodreads.com/book/show/3610698",
-    progress: 20
+    progress: 25
   },
   {
     id: "cpp-concurrency",
