@@ -741,6 +741,30 @@ export default [
       title: "Unreal Engine 5 Beginner Tutorial - UE5 Starter Course",
       youtube: "https://www.youtube.com/watch?v=k-zMkzmduqI",
     },
+    {
+      title: "First Principles While Designing C++ Applications - Prabhu Missier - CppCon 2025",
+      youtube: "https://www.youtube.com/watch?v=8mLo5gXwn4k",
+    },
+    {
+      title: "How to Use AI for Programming",
+      youtube: "https://www.youtube.com/watch?v=A4aLYwtpyes",
+    },
+    {
+      title: "Meeting Cpp std::execution from the metal up - Paul Bendixen - Meeting C++ 2022",
+      youtube: "https://www.youtube.com/watch?v=hLbhNTRKafo",
+    },
+    {
+      title: "SimonDev How Big Budget AAA Games Render Clouds",
+      youtube: "https://www.youtube.com/watch?v=Qj_tK_mdRcA",
+    },
+    {
+      title: "Unlearning OOP: Data-Oriented Gameplay Design with ECS and Mass Entity | Unreal Fest Chicago 2026",
+      youtube: "https://www.youtube.com/watch?v=UXA8axmAb-U",
+    },
+    {
+      title: "Lock-free Programming is Dead - Long Live Lock-free Programming! - Fedor G Pikus - C++Now 2026",
+      youtube: "https://www.youtube.com/watch?v=UdKqfQ3a_sY",
+    },
   ],
 },
 ];
