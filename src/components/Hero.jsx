@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="py-12">
+    <section className="pt-2 pb-4">
       <h1 className="text-4xl font-bold">Hi!</h1>
       <p className="mt-4 text-lg">
         I am a game programmer based in Quebec, Canada, specializing in C++ and game engine development.
