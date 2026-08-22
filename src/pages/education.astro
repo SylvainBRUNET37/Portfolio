@@ -1,0 +1,34 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import education from "../data/education.js";
+import EducationCard from "../components/EducationCard.jsx";
+---
+
+<BaseLayout>
+  <!-- School & online courses -->
+  <section class="mt-4">
+    <h2 class="text-3xl font-bold mb-6">Education</h2>
+
+    {education.map((group) => (
+      <section class="mt-12">
+        <details class="group border-t border-slate-200 pt-6" open>
+          <summary class="cursor-pointer list-none flex-row items-center justify-between text-3xl font-bold select-none">
+            {group.section}
+            <span class="ml-3 text-sm text-slate-500">
+              ({group.entries.length})
+            </span>
+            <span class="transition-transform group-open:rotate-180 text-slate-400">
+              ▾
+            </span>
+          </summary>
+
+          <div class="mt-6 grid grid-cols-1 lg:grid-cols-2 gap-6">
+            {group.entries.map((entry) => (
+              <EducationCard entry={entry} />
+            ))}
+          </div>
+        </details>
+      </section>
+    ))}
+  </section>
+</BaseLayout>

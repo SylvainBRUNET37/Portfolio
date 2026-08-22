@@ -5,8 +5,10 @@ import projects from "../data/projects.js";
 import experiences from "../data/experiences.js";
 import games from "../data/games.js";
 import books from "../data/books.js";
+import education from "../data/education.js";
 import ProjectCard from "../components/ProjectCard.jsx";
 import ExperienceCard from "../components/ExperienceCard.jsx";
+import EducationCard from "../components/EducationCard";
 import BookCard from "../components/BookCard";
 import GameCard from "../components/GameCard";
 
@@ -30,9 +32,23 @@ const base = import.meta.env.BASE_URL;
     <h2 class="text-2xl font-bold">Recent/current experiences</h2>
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
-      {experiences.map((exp) => (
+      {experiences.slice(0, 2).map((exp) => (
         <ExperienceCard project={exp} client:load />
       ))}
+    </div>
+  </section>
+
+  <!-- Education (first two schools) -->
+  <section id="education" class="mt-12">
+    <h2 class="text-2xl font-bold">Education</h2>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
+      {education
+        .find((g) => g.section === "School")
+        .entries.slice(0, 2)
+        .map((entry) => (
+          <EducationCard entry={entry} />
+        ))}
     </div>
   </section>
 

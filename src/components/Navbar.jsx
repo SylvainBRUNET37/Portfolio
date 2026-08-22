@@ -12,6 +12,7 @@ export default function Navbar() {
           <a href={`${base}/`}>Main page</a>
           <a href={`${base}experiences/`}>Experiences</a>
           <a href={`${base}projects/`}>Projects</a>
+          <a href={`${base}education/`}>Education</a>
           <a href={`${base}miscellaneous/`}>Interests</a>
           <a href={`${base}#contact`}>Contact</a>
         </div>
