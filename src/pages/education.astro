@@ -7,7 +7,10 @@ import EducationCard from "../components/EducationCard.jsx";
 <BaseLayout>
   <!-- School & online courses -->
   <section class="mt-4">
-    <h2 class="text-3xl font-bold mb-6">Education</h2>
+    <div class="flex items-center gap-3 mb-6">
+      <span class="h-9 w-1.5 rounded-full bg-gradient-to-b from-indigo-500 to-sky-500" aria-hidden="true"></span>
+      <h2 class="text-3xl font-extrabold tracking-tight text-slate-900">Education</h2>
+    </div>
 
     {education.map((group) => (
       <section class="mt-12">

@@ -6,7 +6,10 @@ import ExperienceCard from "../components/ExperienceCard.jsx";
 
 <BaseLayout>
   <section class="mt-4">
-    <h2 class="text-3xl font-bold mb-6">Experiences</h2>
+    <div class="flex items-center gap-3 mb-6">
+      <span class="h-9 w-1.5 rounded-full bg-gradient-to-b from-indigo-500 to-sky-500" aria-hidden="true"></span>
+      <h2 class="text-3xl font-extrabold tracking-tight text-slate-900">Experiences</h2>
+    </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
       {projects.map(p => (

@@ -2,7 +2,7 @@ export default function ExperienceCard({ project }) {
   return (
     <a
       href={project.link || "#"}
-      className="group block relative overflow-hidden rounded-xl bg-gradient-to-br from-white to-gray-50 border border-gray-200 hover:border-blue-300 transition-all duration-300 hover:shadow-2xl hover:-translate-y-1"
+      className="group block relative overflow-hidden rounded-2xl bg-gradient-to-br from-white to-slate-50 border border-slate-200 hover:border-indigo-300 transition-all duration-300 hover:shadow-2xl hover:-translate-y-1"
       style={{ textDecoration: 'none', color: 'inherit' }}
     >
       <div className="relative p-6">
@@ -40,13 +40,19 @@ export default function ExperienceCard({ project }) {
         </div>
 
         {/* Description */}
-        <div className="space-y-2.5 mb-5 text-gray-600 text-sm leading-relaxed">
-          {project.description && project.description.map((line, i) => (
-            <p key={i} className="group-hover:text-gray-700 transition-colors duration-300">
-              {line}
-            </p>
-          ))}
-        </div>
+        {project.description && project.description.length > 0 && (
+          <ul className="mb-5 space-y-2 text-gray-600 text-sm leading-relaxed">
+            {project.description.map((line, i) => (
+              <li key={i} className="flex gap-2.5 group-hover:text-gray-700 transition-colors duration-300">
+                <span
+                  className="mt-[0.55rem] h-1.5 w-1.5 flex-shrink-0 rounded-full bg-gradient-to-br from-indigo-400 to-sky-500"
+                  aria-hidden="true"
+                />
+                <span>{line}</span>
+              </li>
+            ))}
+          </ul>
+        )}
 
         {/* Tech tags */}
         <div className="flex flex-wrap gap-2">

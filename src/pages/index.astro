@@ -20,7 +20,10 @@ const base = import.meta.env.BASE_URL;
 
   <!-- Projects -->
   <section id="projects" class="mt-4">
-    <h2 class="text-2xl font-bold">Recent/current projects</h2>
+    <div class="flex items-center gap-3">
+      <span class="h-7 w-1.5 rounded-full bg-gradient-to-b from-indigo-500 to-sky-500" aria-hidden="true"></span>
+      <h2 class="text-2xl font-extrabold tracking-tight text-slate-900">Recent/current projects</h2>
+    </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
       {projects.slice(0, 3).map((p) => <ProjectCard project={p} client:load />)}
@@ -29,7 +32,10 @@ const base = import.meta.env.BASE_URL;
 
   <!-- Experiences -->
   <section id="experience" class="mt-12">
-    <h2 class="text-2xl font-bold">Recent/current experiences</h2>
+    <div class="flex items-center gap-3">
+      <span class="h-7 w-1.5 rounded-full bg-gradient-to-b from-indigo-500 to-sky-500" aria-hidden="true"></span>
+      <h2 class="text-2xl font-extrabold tracking-tight text-slate-900">Recent/current experiences</h2>
+    </div>
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
       {experiences.slice(0, 2).map((exp) => (
@@ -40,7 +46,10 @@ const base = import.meta.env.BASE_URL;
 
   <!-- Education (first two schools) -->
   <section id="education" class="mt-12">
-    <h2 class="text-2xl font-bold">Education</h2>
+    <div class="flex items-center gap-3">
+      <span class="h-7 w-1.5 rounded-full bg-gradient-to-b from-indigo-500 to-sky-500" aria-hidden="true"></span>
+      <h2 class="text-2xl font-extrabold tracking-tight text-slate-900">Education</h2>
+    </div>
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
       {education

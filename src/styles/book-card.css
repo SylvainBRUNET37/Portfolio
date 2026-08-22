@@ -2,16 +2,20 @@
   display: flex;
   gap: 14px;
   padding: 14px;
-  border: 1px solid #e5e7eb;
-  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
   text-decoration: none;
   color: inherit;
   background: #fff;
   min-height: 150px;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04), 0 8px 24px -12px rgba(15, 23, 42, 0.10);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
 }
 
 .bcard:hover {
-  background: #fafafa;
+  transform: translateY(-4px);
+  box-shadow: 0 14px 34px -12px rgba(15, 23, 42, 0.18);
+  border-color: #c7d2fe;
 }
 
 .bcard-media {
@@ -19,13 +23,18 @@
   height: 130px;
   flex-shrink: 0;
   overflow: hidden;
-  border-radius: 6px;
+  border-radius: 8px;
 }
 
 .bcard-media img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transition: transform 0.35s ease;
+}
+
+.bcard:hover .bcard-media img {
+  transform: scale(1.05);
 }
 
 .bcard-body {
@@ -36,20 +45,21 @@
 
 .bcard-title {
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 700;
   margin: 0;
+  color: #0f172a;
 }
 
 .bcard-author {
   font-size: 0.8rem;
-  color: #6b7280;
+  color: #64748b;
   margin-bottom: 6px;
 }
 
 .bcard-desc {
   font-size: 0.85rem;
-  color: #374151;
-  line-height: 1.3;
+  color: #475569;
+  line-height: 1.4;
   margin-bottom: 10px;
   max-height: 3.9em;
   overflow: hidden;
@@ -58,62 +68,23 @@
 .bcard-progress {
   margin-top: auto;
   height: 8px;
-  background: #e5e7eb;
+  background: #e2e8f0;
   border-radius: 999px;
   overflow: hidden;
 }
 
 .bcard-progress-bar {
   height: 100%;
-  background: linear-gradient(
-    90deg,
-    #22c55e,
-    #16a34a
-  );
+  background: linear-gradient(90deg, #22c55e, #16a34a);
   transition: width 0.3s ease;
 }
 
 .bcard-progress-text {
   font-size: 0.75rem;
-  color: #6b7280;
+  color: #64748b;
   margin-top: 6px;
 }
 
 .bcard-games .bcard-progress-bar {
   background: linear-gradient(90deg, #6366f1, #4f46e5);
-}
-
-.bcard {
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-.bcard-media {
-  position: relative;
-}
-
-.bcard-media::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.15);
-  opacity: 0;
-  transition: opacity 0.25s ease;
-  pointer-events: none;
-}
-
-.bcard:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
-}
-
-.bcard:hover .bcard-media::after {
-  opacity: 1;
-}
-
-.bcard-media img {
-  transition: transform 0.35s ease;
-}
-
-.bcard:hover .bcard-media img {
-  transform: scale(1.05);
 }
