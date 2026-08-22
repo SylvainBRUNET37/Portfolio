@@ -13,8 +13,6 @@
  *                 Subsection groups are handy for semesters / sessions. Mainly for the School section.
  *   - tech:       list of topics, languages or tools covered
  *   - link:       optional external URL (certification, institution, course page)
- *
- * Replace the "//" placeholders below with your real details.
  */
 export default [
   {
@@ -61,11 +59,13 @@ export default [
           "Computer Graphics",
           "Game Engine",
           "Unreal Engine",
-          "AI / Pathfinding",
+          "Game AI",
+          "Maths & Physics",
           "Gameplay Programming",
           "Distributed Programming",
           "Multiplayer / Networking",
           "Performance Optimization",
+          "Project Management",
           "Team Work",
         ],
       },
@@ -74,7 +74,7 @@ export default [
         title: "Engineering Degree in Computer Science (Master's equivalent)",
         subtitle: "Polytech Tours - France",
         period: "Sep 2023 - Oct 2026",
-        summary: "Engineering degree building a broad foundation in software engineering, from C/C++ to databases, networks, web and distributed systems.",
+        summary: "Focused on building a broad foundation in software engineering, from C/C++ to databases, networks, web and distributed systems.",
         description: [
           "Progressive curriculum from imperative C programming and operating systems up to object-oriented programming in C++/Java.",
           "Practical projects in C/C++, web (front-end JS / back-end Java), databases, mobile development and a cross-disciplinary project.",
@@ -100,7 +100,7 @@ export default [
               "Statistics & Probabilities",
               "Object-Oriented Programming (C++ & Java)",
               "Advanced Object-Oriented Design (Modern C++ & Design Patterns)",
-              "Database",
+              "Databases",
               "Networking",
             ],
           },
@@ -135,6 +135,7 @@ export default [
           "Java",
           "Object-Oriented Programming",
           "Design Patterns",
+          "Maths",
           "Algorithms & Data Structures",
           "Databases & SQL",
           "Computer Networks",
@@ -143,7 +144,6 @@ export default [
           "Distributed Systems",
           "Parallel Computing",
           "Software Testing",
-          "Git",
           "Project Management",
         ],
       },
@@ -152,7 +152,7 @@ export default [
         title: "BTS in Computer Science & Networking (Two-year technical degree)",
         subtitle: "Lycée Grandmont - France",
         period: "Sep 2021 - Aug 2023",
-        summary: "Two-year technical degree centered on computer networks, embedded systems and software programming.",
+        summary: "Centered on computer networks, embedded systems and software programming.",
         description: [
           "Hands-on programming across C, C++ and embedded systems, with object-oriented modeling and software quality.",
           "Strong focus on networks, telecommunications, operating systems, real-time & mobile computing and system administration.",
@@ -179,7 +179,6 @@ export default [
               "Networks & Telecommunications",
               "Real-Time & Mobile Computing",
               "Transmission Modes & Protocols",
-              "Networking",
             ],
           },
           {
@@ -210,7 +209,7 @@ export default [
           "Computer Networks & Protocols",
           "Real-Time & Embedded Systems",
           "Mobile Development",
-          "UML / SysML",
+          "UML",
           "Web Development",
           "SQL / Databases",
           "System Administration",
