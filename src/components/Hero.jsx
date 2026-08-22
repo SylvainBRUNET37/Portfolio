@@ -21,8 +21,7 @@ export default function Hero() {
         style={{ animationDelay: "160ms" }}
       >
         Game programmer based in Quebec, Canada. I am completing my Master's in
-        Computer Science &amp; Game Development at Université de Sherbrooke and my
-        Computer Engineering degree from Polytech Tours at the end of October 2026.
+        Computer Science &amp; Game Development at Université de Sherbrooke at the end of October 2026.
       </p>
 
       <p

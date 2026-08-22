@@ -23,11 +23,11 @@ export default [
         title: "Master's Degree in Computer Science for Video Games",
         subtitle: "Université de Sherbrooke - Quebec, Canada",
         period: "Aug 2025 - Oct 2026",
-        summary: "Specialized graduate program in game programming delivered by industry professionals from leading video game companies.",
+        summary: "Specialized graduate program in game programming delivered by industry professionals from leading video game companies",
         description: [
-          "Focused on the game programming pipeline: advanced object-oriented programming in C++, game engines, computer graphics, math & physics for games and applied AI.",
-          "Hands-on production work including an integrative game project and a full game production process, from prototype to playable build.",
-          "Also covered distributed programming, digital media integration, gameplay design and the broader video game industry.",
+          "Focused on the game programming pipeline: advanced object-oriented programming in C++, game engines, computer graphics, math & physics for games and applied AI",
+          "Hands-on production work including an integrative game project and a full game production process, from prototype to playable build",
+          "Also covered distributed programming, digital media integration, gameplay design and the broader video game industry",
         ],
         classes: [
           {
@@ -74,11 +74,11 @@ export default [
         title: "Engineering Degree in Computer Science (Master's equivalent)",
         subtitle: "Polytech Tours - France",
         period: "Sep 2023 - Oct 2026",
-        summary: "Focused on building a broad foundation in software engineering, from C/C++ to databases, networks, web and distributed systems.",
+        summary: "Focused on building a broad foundation in software engineering, from C/C++ to databases, networks, web and distributed systems",
         description: [
-          "Progressive curriculum from imperative C programming and operating systems up to object-oriented programming in C++/Java.",
-          "Practical projects in C/C++, web (front-end JS / back-end Java), databases, mobile development and a cross-disciplinary project.",
-          "Later semesters covered data science, AI, distributed systems, parallel computing and algorithms & complexity.",
+          "Progressive curriculum from imperative C programming and operating systems up to object-oriented programming in C++/Java",
+          "Practical projects in C/C++, web (front-end JS / back-end Java), databases, mobile development and a cross-disciplinary project",
+          "Later semesters covered data science, AI, distributed systems, parallel computing and algorithms & complexity",
         ],
         classes: [
           {
@@ -152,11 +152,11 @@ export default [
         title: "BTS in Computer Science & Networking (Two-year technical degree)",
         subtitle: "Lycée Grandmont - France",
         period: "Sep 2021 - Aug 2023",
-        summary: "Centered on computer networks, embedded systems and software programming.",
+        summary: "Centered on computer networks, embedded systems and software programming",
         description: [
-          "Hands-on programming across C, C++ and embedded systems, with object-oriented modeling and software quality.",
-          "Strong focus on networks, telecommunications, operating systems, real-time & mobile computing and system administration.",
-          "Included technical communication, project management, documentation and general education subjects.",
+          "Hands-on programming across C, C++ and embedded systems, with object-oriented modeling and software quality",
+          "Strong focus on networks, telecommunications, operating systems, real-time & mobile computing and system administration",
+          "Included technical communication, project management, documentation and general education subjects",
         ],
         classes: [
           {
