@@ -23,7 +23,7 @@ export default function Footer() {
         </p>
 
         <p className="text-xs text-gray-500">
-          Based in Montreal, Quebec, Canada.
+          Based in Quebec, QC, Canada.
         </p>
       </div>
     </footer>

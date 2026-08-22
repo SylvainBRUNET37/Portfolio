@@ -3,10 +3,14 @@ export default function Hero() {
     <section className="py-12">
       <h1 className="text-4xl font-bold">Hi!</h1>
       <p className="mt-4 text-lg">
-        I am a computer science student specializing in video game programming, currently studying in Montreal, Canada. 
-        I have a strong interest in C++, software architecture and performance optimization. 
-        I actively follow the field by watching technical conferences and by regularly reading computer science books.
+        I am a game programmer based in Quebec, Canada, specializing in C++ and game engine development.
       </p>
+
+      <p className="mt-4 text-lg">
+        I will complete my Master's in Computer Science & Game Development at Université de Sherbrooke and 
+        my Computer Engineering degree from Polytech Tours at the end of October 2026. 
+      </p>
+      <p className="text-lg">I am actively seeking full-time game programming roles in Canada or Europe.</p>
     </section>
   );
 }

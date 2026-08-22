@@ -18,7 +18,7 @@ const base = import.meta.env.BASE_URL;
 
   <!-- Projects -->
   <section id="projects" class="mt-12">
-    <h2 class="text-2xl font-bold">Recent/Current projects</h2>
+    <h2 class="text-2xl font-bold">Recent/current projects</h2>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
       {projects.slice(0, 3).map((p) => <ProjectCard project={p} client:load />)}
@@ -27,7 +27,7 @@ const base = import.meta.env.BASE_URL;
 
   <!-- Experiences -->
   <section id="experience" class="mt-12">
-    <h2 class="text-2xl font-bold">Recent experiences</h2>
+    <h2 class="text-2xl font-bold">Recent/current experiences</h2>
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
       {experiences.map((exp) => (
@@ -39,8 +39,8 @@ const base = import.meta.env.BASE_URL;
   <!-- Books -->
   <section class="mt-12">
     <details open class="group">
-      <summary class="text-3xl font-bold mb-6 cursor-pointer list-none flex-row items-center justify-between">
-        Recent/Current Lectures
+      <summary class="text-2xl font-bold mb-6 cursor-pointer list-none flex-row items-center justify-between">
+        Recent/current readings
         <span class="transition-transform group-open:rotate-180">▾</span>
       </summary>
 
@@ -55,8 +55,8 @@ const base = import.meta.env.BASE_URL;
   <!-- Games -->
   <section class="mt-12">
     <details class="group" open>
-      <summary class="text-3xl font-bold mb-6 cursor-pointer list-none flex-row items-center justify-between">
-        Favorite Games
+      <summary class="text-2xl font-bold mb-6 cursor-pointer list-none flex-row items-center justify-between">
+        Favorite games
         <span class="transition-transform group-open:rotate-180">▾</span>
       </summary>
 
@@ -71,7 +71,7 @@ const base = import.meta.env.BASE_URL;
   <!-- Contact -->
   <section id="contact" class="mt-32 py-16 border-t border-gray-200">
     <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-3xl font-semibold tracking-tight">Contact</h2>
+      <h2 class="text-2xl font-semibold tracking-tight">Contact</h2>
 
       <!-- Contact cards -->
       <div class="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
