@@ -9,7 +9,10 @@ import GameCard from "../components/GameCard.jsx";
 import ConferenceCard from "../components/ConferenceCard.jsx";
 ---
 
-<BaseLayout>
+<BaseLayout
+  title="Interests - Sylvain Brunet"
+  description="Interests of Sylvain Brunet: favorite games, readings and a curated archive of C++ and game development talks and conferences."
+>
   <!-- Games -->
   <div class="mt-4 flex items-center gap-3 mb-2">
     <span class="h-9 w-1.5 rounded-full bg-gradient-to-b from-indigo-500 to-sky-500" aria-hidden="true"></span>
@@ -25,7 +28,7 @@ import ConferenceCard from "../components/ConferenceCard.jsx";
 
       <div class="grid gap-6 [grid-template-columns:repeat(auto-fit,minmax(180px,1fr))]">
       {games.map(game => (
-        <GameCard game={game} client:idle />
+        <GameCard game={game} />
       ))}
        </div>
     </details>
@@ -41,7 +44,7 @@ import ConferenceCard from "../components/ConferenceCard.jsx";
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {books.map(book => (
-          <BookCard book={book} client:idle />
+          <BookCard book={book} />
         ))}
       </div>
     </details>
@@ -74,7 +77,7 @@ import ConferenceCard from "../components/ConferenceCard.jsx";
 
             <div class="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-5">
               {section.conferences.map(conf => (
-                <ConferenceCard conference={conf} client:idle />
+                <ConferenceCard conference={conf} />
               ))}
             </div>
           </details>

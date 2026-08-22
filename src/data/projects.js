@@ -66,7 +66,7 @@ export default
     id: "schedule",
     title: "Scheduling Problem Solution",
     period: "October 2024 - December 2024",
-    description: "A scheduling algorithm using a genetic algorithm developed in pairs to create nurse schedules under 8 constraints and several user preferences. The algorithm include heuristic initialization, tournament selection, multiple crossover strategies, mutation, infeasibility repair, and modular fitness evaluation.",
+    description: "A scheduling algorithm using a genetic algorithm developed in pairs to create nurse schedules under 8 constraints and several user preferences. The algorithm includes heuristic initialization, tournament selection, multiple crossover strategies, mutation, infeasibility repair, and modular fitness evaluation.",
     tech: [
       "Problem Solving",
       "Constrained Optimization Problems Solving",
@@ -83,7 +83,7 @@ export default
     id: "passplat",
     title: "A reusable Food Container Borrowing System for Passplat association",
     period: "October 2024 - March 2025",
-    description: "Prototype developed in a team of 5 for a multiplaform mobile application and backend system for an association to manage the borrowing and return of reusable food containers.",
+    description: "Prototype developed in a team of 5 for a multiplatform mobile application and backend system for an association to manage the borrowing and return of reusable food containers.",
     tech: ["Mobile", "Java", "Spring Boot", "TypeScript", "React Native", "REST API", "SQL", "Database", "Gradle", "Git"],
     img: "/images/projects/passplat.png",
     link: "https://www.youtube.com/shorts/EOsnFFwecBM"

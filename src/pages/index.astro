@@ -15,8 +15,11 @@ import GameCard from "../components/GameCard";
 const base = import.meta.env.BASE_URL;
 ---
 
-<BaseLayout>
-  <Hero client:load />
+<BaseLayout
+  title="Sylvain Brunet - Game Programmer"
+  description="Portfolio of Sylvain Brunet, a game programmer based in Quebec, Canada. Master's in Computer Science & Game Development at Université de Sherbrooke. Projects, experiences and education."
+>
+  <Hero />
 
   <!-- Projects -->
   <section id="projects" class="mt-4">
@@ -26,7 +29,7 @@ const base = import.meta.env.BASE_URL;
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
-      {projects.slice(0, 3).map((p) => <ProjectCard project={p} client:load />)}
+      {projects.slice(0, 3).map((p) => <ProjectCard project={p} />)}
     </div>
   </section>
 
@@ -39,7 +42,7 @@ const base = import.meta.env.BASE_URL;
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
       {experiences.slice(0, 2).map((exp) => (
-        <ExperienceCard project={exp} client:load />
+        <ExperienceCard project={exp} />
       ))}
     </div>
   </section>
@@ -71,7 +74,7 @@ const base = import.meta.env.BASE_URL;
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {books.slice(0, 3).map((book) => (
-          <BookCard book={book} client:idle />
+          <BookCard book={book} />
         ))}
       </div>
     </details>
@@ -87,7 +90,7 @@ const base = import.meta.env.BASE_URL;
 
       <div class="grid gap-6 [grid-template-columns:repeat(auto-fit,minmax(180px,1fr))]">
         {games.slice(0, 6).map((game) => (
-          <GameCard game={game} client:idle />
+          <GameCard game={game} />
         ))}
       </div>
     </details>
@@ -109,7 +112,7 @@ const base = import.meta.env.BASE_URL;
                  hover:border-gray-400 hover:bg-gray-50"
         >
           <img
-            src={`${base}/images/icons/linkedin.png`}
+            src={`${base}images/icons/linkedin.png`}
             alt="LinkedIn"
             class="h-8 w-8 transition group-hover:scale-110"
           />
@@ -125,7 +128,7 @@ const base = import.meta.env.BASE_URL;
                  hover:border-gray-400 hover:bg-gray-50"
         >
           <img
-            src={`${base}/images/icons/gmail.png`}
+            src={`${base}images/icons/gmail.png`}
             alt="Email"
             class="h-8 w-8 transition group-hover:scale-110"
           />
@@ -144,7 +147,7 @@ const base = import.meta.env.BASE_URL;
                  hover:border-gray-400 hover:bg-gray-50"
         >
           <img
-            src={`${base}/images/icons/github.png`}
+            src={`${base}images/icons/github.png`}
             alt="GitHub"
             class="h-8 w-8 transition group-hover:scale-110"
           />
@@ -161,11 +164,12 @@ const base = import.meta.env.BASE_URL;
           <a
             href={`${base}documents/CV - QC.pdf`}
             target="_blank"
+            rel="noopener noreferrer"
             class="group flex items-center gap-4 rounded-xl border p-6 transition
                    hover:border-gray-400 hover:bg-gray-50"
           >
             <img
-              src={`${base}/images/icons/qc.png`}
+              src={`${base}images/icons/qc.png`}
               alt="CV Quebec"
               class="h-8 w-8 transition group-hover:scale-110"
             />
@@ -178,11 +182,12 @@ const base = import.meta.env.BASE_URL;
           <a
             href={`${base}documents/CV - FR.pdf`}
             target="_blank"
+            rel="noopener noreferrer"
             class="group flex items-center gap-4 rounded-xl border p-6 transition
                    hover:border-gray-400 hover:bg-gray-50"
           >
             <img
-              src={`${base}/images/icons/fr.png`}
+              src={`${base}images/icons/fr.png`}
               alt="CV French"
               class="h-8 w-8 transition group-hover:scale-110"
             />
@@ -195,11 +200,12 @@ const base = import.meta.env.BASE_URL;
           <a
             href={`${base}documents/CV - EN.pdf`}
             target="_blank"
+            rel="noopener noreferrer"
             class="group flex items-center gap-4 rounded-xl border p-6 transition
                    hover:border-gray-400 hover:bg-gray-50"
           >
             <img
-              src={`${base}/images/icons/en.png`}
+              src={`${base}images/icons/en.png`}
               alt="CV English"
               class="h-8 w-8 transition group-hover:scale-110"
             />

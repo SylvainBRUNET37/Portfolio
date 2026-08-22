@@ -1,46 +1,45 @@
-# Astro Starter Kit: Basics
+# Portfolio
 
-```sh
-npm create astro@latest -- --template basics
+My personal porfolio.
+Built with [Astro](https://astro.build), [Tailwind CSS v4](https://tailwindcss.com) and [React](https://react.dev).
+
+Live at: https://sylvainbrunet37.github.io/Portfolio/
+
+## Project structure
+
 ```
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
 /
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
+├── public/              # Static assets (images, CV PDFs, favicon)
+├── src/
+│   ├── components/      # React components (cards, navbar, hero, footer)
+│   ├── data/            # All content lives here (projects, experiences, education, books, games, conferences)
+│   ├── layouts/         # BaseLayout.astro (SEO meta tags, fonts)
+│   ├── pages/           # Astro pages (index, projects, experiences, education, miscellaneous)
+│   └── styles/          # Global + per-card CSS
+└── astro.config.mjs     # site/base config (GitHub Pages deployment)
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## Commands
 
-## 🧞 Commands
+| Command           | Action                                       |
+| :---------------- | :------------------------------------------- |
+| `npm install`     | Install dependencies                         |
+| `npm run dev`     | Start local dev server at `localhost:4321`   |
+| `npm run build`   | Build the production site to `./dist/`       |
+| `npm run preview` | Preview the production build locally         |
 
-All commands are run from the root of the project, from a terminal:
+## Editing content
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+All content is **data driven**: you should almost never touch a component or page to update content.
+Just edit the files in `src/data/`:
 
-## 👀 Want to learn more?
+- `projects.js` - project cards
+- `experiences.js` - work experiences
+- `education.js` - schools & courses
+- `books.js`, `games.js`, `conferences.js` - interests
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Images referenced in the data files live under `public/images/`.
+
+## Deployment
+
+Static output deployed on GitHub Pages (`base: '/Portfolio/'`).
