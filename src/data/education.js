@@ -23,7 +23,7 @@ export default [
         title: "Master's Degree in Computer Science for Video Game Development",
         subtitle: "Université de Sherbrooke - Quebec, Canada",
         logo: "/images/logos/sherbrooke.png",
-        period: "Aug 2025 - Oct 2026",
+        period: "August 2025 - October 2026",
         summary: "Specialized graduate program in game programming delivered by industry professionals from leading video game companies",
         description: [
           "Focused on the game programming pipeline: advanced object-oriented programming in C++, game engines, computer graphics, math & physics for games and applied AI",
@@ -75,7 +75,7 @@ export default [
         title: "Engineering Degree in Computer Science (Master's equivalent)",
         subtitle: "Polytech Tours - France",
         logo: "/images/logos/polytech.jpg",
-        period: "Sep 2023 - Oct 2026",
+        period: "September 2023 - October 2026",
         summary: "Focused on building a broad foundation in software engineering, from C/C++ to databases, networks, web and distributed systems",
         description: [
           "Progressive curriculum from imperative C programming and operating systems up to object-oriented programming in C++/Java",
@@ -154,7 +154,7 @@ export default [
         title: "BTS in Computer Science & Networking (Two-year technical degree)",
         subtitle: "Lycée Grandmont - France",
         logo: "/images/logos/grandmont.jpg",
-        period: "Sep 2021 - Aug 2023",
+        period: "September 2021 - August 2023",
         summary: "Centered on computer networks, embedded systems and software programming",
         description: [
           "Hands-on programming across C, C++ and embedded systems, with object-oriented modeling and software quality",
