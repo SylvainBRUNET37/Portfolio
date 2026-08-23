@@ -1,48 +1,60 @@
 export default function Navbar() {
   const base = import.meta.env.BASE_URL;
 
+  // Each section gets its own accent color — the nav reads like a set of
+  // labeled tabs, with a small colored dot next to each link.
   const links = [
-    { label: "Main page", href: `${base}` },
-    { label: "Experiences", href: `${base}experiences/` },
-    { label: "Projects", href: `${base}projects/` },
-    { label: "Education", href: `${base}education/` },
-    { label: "Interests", href: `${base}miscellaneous/` },
-    { label: "Contact", href: `${base}#contact` },
+    { label: "Main page", href: `${base}`, color: "#2451E0" },
+    { label: "Experiences", href: `${base}experiences/`, color: "#0EA5A0" },
+    { label: "Projects", href: `${base}projects/`, color: "#7C3AED" },
+    { label: "Education", href: `${base}education/`, color: "#D18700" },
+    { label: "Interests", href: `${base}miscellaneous/`, color: "#E1436D" },
+    { label: "Contact", href: `${base}#contact`, color: "#16A34A" },
   ];
 
-  const linkClass =
-    "relative rounded-lg px-3 py-2 text-sm font-medium text-slate-600 transition-colors duration-200 hover:text-indigo-600";
+  const NavLink = ({ link, mobile = false }) => (
+    <a
+      href={link.href}
+      style={{ "--accent": link.color }}
+      className={
+        mobile
+          ? "flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-semibold text-[#2B2D33] transition-colors duration-150 hover:bg-slate-50 hover:text-[var(--accent)]"
+          : "group relative flex items-center gap-2 px-3 py-2 text-sm font-semibold text-[#3A3D45] " +
+            "border-t-2 border-transparent transition-colors duration-200 " +
+            "hover:text-[var(--accent)] hover:border-t-[var(--accent)] " +
+            "focus-visible:text-[var(--accent)] focus-visible:border-t-[var(--accent)] focus-visible:outline-none"
+      }
+    >
+      <span
+        aria-hidden="true"
+        className="h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--accent)] opacity-40 transition-opacity duration-200 group-hover:opacity-100"
+      />
+      {link.label}
+    </a>
+  );
 
   return (
-    <nav className="sticky top-0 z-50 w-full border-b border-slate-200/70 bg-white/75 backdrop-blur-md">
+    <nav className="sticky top-0 z-50 w-full border-b border-[#EAE8E2] bg-[#FAFAF9]/90 backdrop-blur-md">
       <div className="container mx-auto flex items-center justify-between px-4 py-3">
-        <a href={base} className="flex items-center gap-2.5 font-extrabold text-lg">
-          <span className="grid h-9 w-9 place-items-center rounded-xl bg-slate-900 text-sm text-white shadow-sm">
-            SB
-          </span>
-          <span className="text-slate-900">
-            Sylvain Brunet
-          </span>
+        <a href={base} className="text-lg font-black tracking-tight text-[#14161A]">
+          Sylvain Brunet
         </a>
 
         {/* Desktop nav */}
-        <div className="hidden items-center gap-1 md:flex">
+        <div className="hidden items-center md:flex">
           {links.map((link) => (
-            <a key={link.label} href={link.href} className={linkClass}>
-              {link.label}
-            </a>
+            <NavLink key={link.label} link={link} />
           ))}
         </div>
 
         {/* Mobile nav (CSS-only, no JS hydration required) */}
-        <details className="relative md:hidden group">
+        <details className="group relative md:hidden">
           <summary
             aria-label="Toggle navigation menu"
-            className="flex h-10 w-10 cursor-pointer list-none select-none items-center justify-center rounded-xl border border-slate-200 bg-white shadow-sm transition hover:border-slate-300"
+            className="flex h-10 w-10 cursor-pointer list-none select-none items-center justify-center rounded-md border border-[#DEDCD5] bg-white transition hover:border-[#14161A]"
           >
-            {/* Hamburger icon (shown when closed) */}
             <svg
-              className="h-5 w-5 text-slate-700 group-open:hidden"
+              className="h-5 w-5 text-[#14161A] group-open:hidden"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -51,9 +63,8 @@ export default function Navbar() {
             >
               <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
             </svg>
-            {/* Close icon (shown when open) */}
             <svg
-              className="hidden h-5 w-5 text-slate-700 group-open:block"
+              className="hidden h-5 w-5 text-[#E1436D] group-open:block"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -64,15 +75,9 @@ export default function Navbar() {
             </svg>
           </summary>
 
-          <div className="absolute right-0 mt-2 w-48 rounded-xl border border-slate-200 bg-white p-2 shadow-lg">
+          <div className="absolute right-0 mt-2 w-52 rounded-lg border border-[#EAE8E2] bg-white p-1.5 shadow-lg shadow-black/5">
             {links.map((link) => (
-              <a
-                key={link.label}
-                href={link.href}
-                className={`${linkClass} block`}
-              >
-                {link.label}
-              </a>
+              <NavLink key={link.label} link={link} mobile />
             ))}
           </div>
         </details>
