@@ -23,56 +23,74 @@ const base = import.meta.env.BASE_URL;
 
   <!-- Projects -->
   <section id="projects" class="mt-4">
-    <div class="flex items-center gap-3">
-      <span class="h-7 w-1.5 rounded-full bg-gradient-to-b from-indigo-500 to-sky-500" aria-hidden="true"></span>
-      <h2 class="text-2xl font-extrabold tracking-tight text-slate-900">Recent/current projects</h2>
-    </div>
+    <details class="group" open>
+      <summary class="flex cursor-pointer list-none items-center justify-between select-none">
+        <div class="flex items-center gap-3">
+          <span class="h-7 w-1.5 rounded-full bg-gradient-to-b from-indigo-500 to-sky-500" aria-hidden="true"></span>
+          <h2 class="text-2xl font-extrabold tracking-tight text-slate-900">Recent/current projects</h2>
+        </div>
+        <span class="text-slate-400 transition-transform group-open:rotate-180">▾</span>
+      </summary>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
-      {projects.slice(0, 3).map((p) => <ProjectCard project={p} />)}
-    </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+        {projects.slice(0, 3).map((p) => <ProjectCard project={p} />)}
+      </div>
+    </details>
   </section>
 
   <!-- Experiences -->
   <section id="experience" class="mt-12">
-    <div class="flex items-center gap-3">
-      <span class="h-7 w-1.5 rounded-full bg-gradient-to-b from-indigo-500 to-sky-500" aria-hidden="true"></span>
-      <h2 class="text-2xl font-extrabold tracking-tight text-slate-900">Recent/current experiences</h2>
-    </div>
+    <details class="group" open>
+      <summary class="flex cursor-pointer list-none items-center justify-between select-none">
+        <div class="flex items-center gap-3">
+          <span class="h-7 w-1.5 rounded-full bg-gradient-to-b from-sky-500 to-indigo-500" aria-hidden="true"></span>
+          <h2 class="text-2xl font-extrabold tracking-tight text-slate-900">Recent/current experiences</h2>
+        </div>
+        <span class="text-slate-400 transition-transform group-open:rotate-180">▾</span>
+      </summary>
 
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
-      {experiences.slice(0, 2).map((exp) => (
-        <ExperienceCard project={exp} />
-      ))}
-    </div>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
+        {experiences.slice(0, 2).map((exp) => (
+          <ExperienceCard project={exp} />
+        ))}
+      </div>
+    </details>
   </section>
 
   <!-- Education (first two schools) -->
   <section id="education" class="mt-12">
-    <div class="flex items-center gap-3">
-      <span class="h-7 w-1.5 rounded-full bg-gradient-to-b from-indigo-500 to-sky-500" aria-hidden="true"></span>
-      <h2 class="text-2xl font-extrabold tracking-tight text-slate-900">Education</h2>
-    </div>
+    <details class="group" open>
+      <summary class="flex cursor-pointer list-none items-center justify-between select-none">
+        <div class="flex items-center gap-3">
+          <span class="h-7 w-1.5 rounded-full bg-gradient-to-b from-indigo-500 to-sky-500" aria-hidden="true"></span>
+          <h2 class="text-2xl font-extrabold tracking-tight text-slate-900">Education</h2>
+        </div>
+        <span class="text-slate-400 transition-transform group-open:rotate-180">▾</span>
+      </summary>
 
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
-      {education
-        .find((g) => g.section === "School")
-        .entries.slice(0, 2)
-        .map((entry) => (
-          <EducationCard entry={entry} />
-        ))}
-    </div>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
+        {education
+          .find((g) => g.section === "School")
+          .entries.slice(0, 2)
+          .map((entry) => (
+            <EducationCard entry={entry} />
+          ))}
+      </div>
+    </details>
   </section>
 
   <!-- Books -->
   <section class="mt-12">
     <details open class="group">
-      <summary class="text-2xl font-bold mb-6 cursor-pointer list-none flex-row items-center justify-between">
-        Recent/current readings
-        <span class="transition-transform group-open:rotate-180">▾</span>
+      <summary class="flex cursor-pointer list-none items-center justify-between select-none">
+        <div class="flex items-center gap-3">
+          <span class="h-7 w-1.5 rounded-full bg-gradient-to-b from-indigo-500 to-sky-500" aria-hidden="true"></span>
+          <h2 class="text-2xl font-extrabold tracking-tight text-slate-900">Recent/current readings</h2>
+        </div>
+        <span class="text-slate-400 transition-transform group-open:rotate-180">▾</span>
       </summary>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
         {books.slice(0, 3).map((book) => (
           <BookCard book={book} />
         ))}
@@ -83,12 +101,15 @@ const base = import.meta.env.BASE_URL;
   <!-- Games -->
   <section class="mt-12">
     <details class="group" open>
-      <summary class="text-2xl font-bold mb-6 cursor-pointer list-none flex-row items-center justify-between">
-        Favorite games
-        <span class="transition-transform group-open:rotate-180">▾</span>
+      <summary class="flex cursor-pointer list-none items-center justify-between select-none">
+        <div class="flex items-center gap-3">
+          <span class="h-7 w-1.5 rounded-full bg-gradient-to-b from-indigo-500 to-sky-500" aria-hidden="true"></span>
+          <h2 class="text-2xl font-extrabold tracking-tight text-slate-900">Favorite games</h2>
+        </div>
+        <span class="text-slate-400 transition-transform group-open:rotate-180">▾</span>
       </summary>
 
-      <div class="grid gap-6 [grid-template-columns:repeat(auto-fit,minmax(180px,1fr))]">
+      <div class="grid gap-6 [grid-template-columns:repeat(auto-fit,minmax(180px,1fr))] mt-6">
         {games.slice(0, 6).map((game) => (
           <GameCard game={game} />
         ))}

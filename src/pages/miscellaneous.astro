@@ -21,12 +21,15 @@ import ConferenceCard from "../components/ConferenceCard.jsx";
 
   <section class="mt-8">
     <details class="group" open>
-      <summary class="text-3xl font-bold mb-6 cursor-pointer list-none flex-row items-center justify-between">
-        Favorite games
-        <span class="transition-transform group-open:rotate-180">▾</span>
+      <summary class="flex cursor-pointer list-none items-center justify-between select-none">
+        <div class="flex items-center gap-3">
+          <span class="h-8 w-1.5 rounded-full bg-gradient-to-b from-indigo-500 to-sky-500" aria-hidden="true"></span>
+          <h2 class="text-3xl font-bold text-slate-900">Favorite games</h2>
+        </div>
+        <span class="text-slate-400 transition-transform group-open:rotate-180">▾</span>
       </summary>
 
-      <div class="grid gap-6 [grid-template-columns:repeat(auto-fit,minmax(180px,1fr))]">
+      <div class="grid gap-6 [grid-template-columns:repeat(auto-fit,minmax(180px,1fr))] mt-6">
       {games.map(game => (
         <GameCard game={game} />
       ))}
@@ -36,13 +39,16 @@ import ConferenceCard from "../components/ConferenceCard.jsx";
 
   <!-- Books -->
   <section class="mt-12">
-    <details open class="group" open>
-      <summary class="text-3xl font-bold mb-6 cursor-pointer list-none flex-row items-center justify-between">
-        Books archive
-        <span class="transition-transform group-open:rotate-180">▾</span>
+    <details open class="group">
+      <summary class="flex cursor-pointer list-none items-center justify-between select-none">
+        <div class="flex items-center gap-3">
+          <span class="h-8 w-1.5 rounded-full bg-gradient-to-b from-indigo-500 to-sky-500" aria-hidden="true"></span>
+          <h2 class="text-3xl font-bold text-slate-900">Books archive</h2>
+        </div>
+        <span class="text-slate-400 transition-transform group-open:rotate-180">▾</span>
       </summary>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
         {books.map(book => (
           <BookCard book={book} />
         ))}
@@ -52,25 +58,29 @@ import ConferenceCard from "../components/ConferenceCard.jsx";
 
   <!-- Conferences -->
   <section class="mt-12">
-    <details class="group border-t border-slate-200 pt-6" open>
-      <summary class="cursor-pointer list-none flex-row items-center justify-between text-3xl font-bold select-none">
-        Talks & videos archive
-        <span class="transition-transform group-open:rotate-180">▾</span>
+    <details class="group" open>
+      <summary class="flex cursor-pointer list-none items-center justify-between select-none">
+        <div class="flex items-center gap-3">
+          <span class="h-8 w-1.5 rounded-full bg-gradient-to-b from-indigo-500 to-sky-500" aria-hidden="true"></span>
+          <h2 class="text-3xl font-bold text-slate-900">Talks & videos archive</h2>
+        </div>
+        <span class="text-slate-400 transition-transform group-open:rotate-180">▾</span>
       </summary>
-
-      <p class="mt-2 text-slate-600 max-w-2xl"></p>
 
       <div class="mt-10 space-y-10">
         {conferences.map(section => (
           <details class="group" open>
-            <summary class="cursor-pointer list-none flex-row items-center justify-between text-xl font-semibold select-none">
-              <span>
-                {section.section}
-                <span class="ml-2 text-sm text-slate-500">
-                  ({section.conferences.length})
-                </span>
-              </span>
-              <span class="transition-transform group-open:rotate-180 text-slate-400">
+            <summary class="flex cursor-pointer list-none items-center justify-between select-none">
+              <div class="flex items-center gap-3">
+                <span class="h-5 w-1.5 rounded-full bg-gradient-to-b from-indigo-500 to-sky-500" aria-hidden="true"></span>
+                <h3 class="text-xl font-semibold text-slate-900">
+                  {section.section}
+                  <span class="ml-2 text-sm font-normal text-slate-500">
+                    ({section.conferences.length})
+                  </span>
+                </h3>
+              </div>
+              <span class="text-slate-400 transition-transform group-open:rotate-180">
                 ▾
               </span>
             </summary>

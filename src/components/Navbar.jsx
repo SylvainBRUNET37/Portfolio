@@ -5,9 +5,9 @@ export default function Navbar() {
   // labeled tabs, with a small colored dot next to each link.
   const links = [
     { label: "Main page", href: `${base}`, color: "#2451E0" },
-    { label: "Experiences", href: `${base}experiences/`, color: "#0EA5A0" },
-    { label: "Projects", href: `${base}projects/`, color: "#7C3AED" },
-    { label: "Education", href: `${base}education/`, color: "#D18700" },
+    { label: "Experiences", href: `${base}experiences/`, color: "#7C3AED" },
+    { label: "Education", href: `${base}education/`, color: "#0EA5A0" },
+    { label: "Projects", href: `${base}projects/`, color: "#D18700" },
     { label: "Interests", href: `${base}miscellaneous/`, color: "#E1436D" },
     { label: "Contact", href: `${base}#contact`, color: "#16A34A" },
   ];

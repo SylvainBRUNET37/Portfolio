@@ -26,7 +26,7 @@ const CARD_VARIANTS = {
   blue: {
     dot: "bg-gradient-to-br from-blue-400 to-cyan-500",
     border: "hover:border-blue-300",
-    tag: "group-hover:border-cyan-200",
+    tag: "group-hover:border-blue-200",
     accent: "#3b82f6",
   },
 };
@@ -39,7 +39,7 @@ export default function EducationCard({ entry, variant = "blue" }) {
   const style = { textDecoration: "none", color: "inherit" };
 
   const inner = (
-    <div className="relative p-6">
+    <div className="relative h-full p-6">
       <span
         className="pointer-events-none absolute inset-y-0 left-0 w-1.5 rounded-l-2xl"
         style={{ backgroundColor: v.accent }}
@@ -178,7 +178,7 @@ export default function EducationCard({ entry, variant = "blue" }) {
             {entry.tech.map((t, idx) => (
               <span
                 key={t}
-                className={`text-xs font-medium px-3 py-1.5 rounded-lg bg-gradient-to-r from-gray-100 to-gray-50 text-gray-700 border border-gray-200 transition-all duration-300 ${v.tag}`}
+                className={`text-xs font-medium px-3 py-1.5 rounded-lg bg-gradient-to-r from-blue-50 to-blue-50 text-gray-700 border border-gray-200 transition-all duration-300 ${v.tag}`}
                 style={{ transitionDelay: `${idx * 30}ms` }}
               >
                 {t}
