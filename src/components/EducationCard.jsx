@@ -44,9 +44,9 @@ export default function EducationCard({ entry, variant = "blue" }) {
         className="pointer-events-none absolute inset-y-0 left-0 w-1.5 rounded-l-2xl"
         style={{ backgroundColor: v.accent }}
       />
-      <div className="flex items-start justify-between gap-4 mb-2">
-        <div className="flex-1 min-w-0">
-          <div className="flex items-start gap-3">
+      <div className="mb-2">
+        <div className="flex items-start justify-between gap-4">
+          <div className="flex items-start gap-3 min-w-0 flex-1">
             {entry.logo && (
               <img
                 src={`${import.meta.env.BASE_URL}${entry.logo.replace(/^\//, "")}`}
@@ -66,19 +66,21 @@ export default function EducationCard({ entry, variant = "blue" }) {
               )}
             </div>
           </div>
-          {entry.summary && (
-            <p className="mt-2 text-sm font-medium text-gray-700 leading-relaxed tracking-wide italic group-hover:text-gray-900 transition-colors duration-300">
-              {entry.summary}
-            </p>
+
+          {entry.period && (
+            <div className="flex-shrink-0 text-right">
+              <span className="inline-flex items-center justify-end text-sm font-medium text-gray-500 bg-gray-100 px-3 py-1 rounded-full">
+                {entry.period}
+              </span>
+            </div>
           )}
         </div>
 
-        {entry.period && (
-          <div className="flex-shrink-0 text-right">
-            <span className="inline-flex items-center justify-end text-sm font-medium text-gray-500 bg-gray-100 px-3 py-1 rounded-full">
-              {entry.period}
-            </span>
-          </div>
+        {/* Summary: now full width, no longer squeezed by the period pill */}
+        {entry.summary && (
+          <p className="mt-2 text-sm font-medium text-gray-700 leading-relaxed tracking-wide italic group-hover:text-gray-900 transition-colors duration-300">
+            {entry.summary}
+          </p>
         )}
       </div>
 

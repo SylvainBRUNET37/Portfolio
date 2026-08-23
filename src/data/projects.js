@@ -26,7 +26,7 @@ export default
     id: "need4fish",
     title: "FishEngine & Need4Fish - Homemade game engine for an underwater game",
     period: "September 2025 - December 2025",
-    description: "A custom 3D game engine built by a team of 4 and used for an underwater game, with a focus on real-time rendering, physics, ECS-based architecture, performance optimization, gameplay and data-oriented design.",
+    description: "A custom 3D game engine built in C++ by a team of 4 and used for an underwater game, with a focus on real-time rendering, physics, ECS-based architecture, performance optimization, gameplay and data-oriented design.",
       tech: [
       "Custom 3D Game Engine",
       "C++",
@@ -48,7 +48,7 @@ export default
     id: "turn-based-ai",
     title: "AI for a Turn-Based Programming Challenge",
     period: "September 2025 - December 2025",
-    description: "AI algorithms for a 38-level turn-based programming challenge, combining pathfinding, decision-making architectures, cooperative multi-agent behavior, optimization techniques, and utility-based evaluation.",
+    description: "AI algorithms in C++ for a 38-level turn-based programming challenge, combining pathfinding, decision-making architectures, cooperative multi-agent behavior, optimization techniques, and utility-based evaluation.",
     tech: ["AI", "Problem Solving", "C++", "Algorithms", "A* search", "State machine", "Optimization"],
     img: "/images/projects/ai-turnbased.png",
     link: "https://github.com/Nell15/AI-Bootcamp"

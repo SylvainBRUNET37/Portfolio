@@ -24,7 +24,7 @@ export default [
         subtitle: "Université de Sherbrooke - Quebec, Canada",
         logo: "/images/logos/sherbrooke.png",
         period: "August 2025 - October 2026",
-        summary: "Specialized graduate program in game programming delivered by industry professionals from leading video game companies",
+        summary: "Completed as part of a dual degree program, it's a specialized graduate program in game programming taught directly by industry professionals from leading video game companies",
         description: [
           "Focused on the game programming pipeline: advanced object-oriented programming in C++, game engines, computer graphics, math & physics for games and applied AI",
           "Hands-on production work including an integrative game project and a full game production process, from prototype to playable build",
@@ -151,7 +151,7 @@ export default [
       },
       {
         id: "bts",
-        title: "BTS in Computer Science & Networking (Two-year technical degree)",
+        title: "Two-year technical degree in Computer Science & Networking",
         subtitle: "Lycée Grandmont - France",
         logo: "/images/logos/grandmont.jpg",
         period: "September 2021 - August 2023",

@@ -4,7 +4,7 @@ export default
     id: "ubisoft",
     title: "3D Programmer Intern (Anvil Pipeline)",
     period: "May 2026 - October 2026",
-    summary: "3D rendering and performance work on a proprietary AAA game engine",
+    summary: "3D rendering in C++ and HLSL on a proprietary AAA game engine",
     description: [
       "Feature development, debugging, profiling and CPU/GPU performance optimization on console within a proprietary engine (Anvil) used by multiple AAA titles (Assassin's Creed games, Ghost Recon, unannounced projects)",
       "Real-time 3D rendering in C++ and HLSL for VFX, sky and clouds",

@@ -45,10 +45,10 @@ export default function ExperienceCard({ project, variant = "indigo" }) {
       />
       <div className="relative p-6">
         {/* Header: left = title + summary, right = period + company */}
-        <div className="flex items-start justify-between gap-4 mb-2">
-          {/* Left: Logo (optional), Title (top) and Summary (below) */}
-          <div className="flex-1 min-w-0">
-            <div className="flex items-start gap-3">
+        <div className="mb-2">
+          <div className="flex items-start justify-between gap-4">
+            {/* Left: Logo + Title only */}
+            <div className="flex items-center gap-3 min-w-0 flex-1">
               {project.logo && (
                 <img
                   src={`${import.meta.env.BASE_URL}${project.logo.replace(/^\//, "")}`}
@@ -63,30 +63,31 @@ export default function ExperienceCard({ project, variant = "indigo" }) {
                 </h3>
               </div>
             </div>
-            {project.summary && (
-              <p className="mt-2 text-sm font-medium text-gray-700 leading-relaxed tracking-wide italic group-hover:text-gray-900 transition-colors duration-300">
-                <span className="relative font-semibold inline-block">
-                  <span className="absolute inset-0 -z-10 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                  {project.summary}
+
+            {/* Right: Period (top) and Company (below) aligned right */}
+            <div className="flex-shrink-0 text-right">
+              {project.period && (
+                <span className="inline-flex items-center justify-end text-sm font-medium text-gray-500 bg-gray-100 px-3 py-1 rounded-full">
+                  {project.period}
                 </span>
-              </p>
-            )}
+              )}
+              {project.company && (
+                <p className="mt-2 pr-4 text-sm font-semibold text-gray-600 tracking-wide">
+                  {project.company}
+                </p>
+              )}
+            </div>
           </div>
 
-          {/* Right: Period (top) and Company (below) aligned right */}
-          <div className="flex-shrink-0 text-right">
-            {project.period && (
-              <span className="inline-flex items-center justify-end text-sm font-medium text-gray-500 bg-gray-100 px-3 py-1 rounded-full">
-                {project.period}
+          {/* Summary: full width, no longer squeezed by the right column */}
+          {project.summary && (
+            <p className="mt-2 text-sm font-medium text-gray-700 leading-relaxed tracking-wide italic group-hover:text-gray-900 transition-colors duration-300">
+              <span className="relative font-semibold inline-block">
+                <span className="absolute inset-0 -z-10 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                {project.summary}
               </span>
-            )}
-
-            {project.company && (
-              <p className="mt-2 pr-4 text-sm font-semibold text-gray-600 tracking-wide">
-                {project.company}
-              </p>
-            )}
-          </div>
+            </p>
+          )}
         </div>
 
         {/* Description */}
