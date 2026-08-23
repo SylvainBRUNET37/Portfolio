@@ -84,7 +84,7 @@ const base = import.meta.env.BASE_URL;
     <details open class="group">
       <summary class="flex cursor-pointer list-none items-center justify-between select-none">
         <div class="flex items-center gap-3">
-          <span class="h-7 w-1.5 rounded-full bg-gradient-to-b from-indigo-500 to-sky-500" aria-hidden="true"></span>
+          <span class="h-7 w-1.5 rounded-full bg-gradient-to-b from-sky-500 to-indigo-500" aria-hidden="true"></span>
           <h2 class="text-2xl font-extrabold tracking-tight text-slate-900">Recent/current readings</h2>
         </div>
         <span class="text-slate-400 transition-transform group-open:rotate-180">▾</span>
@@ -110,7 +110,7 @@ const base = import.meta.env.BASE_URL;
       </summary>
 
       <div class="grid gap-6 [grid-template-columns:repeat(auto-fit,minmax(180px,1fr))] mt-6">
-        {games.slice(0, 6).map((game) => (
+        {games.slice(0, 7).map((game) => (
           <GameCard game={game} />
         ))}
       </div>

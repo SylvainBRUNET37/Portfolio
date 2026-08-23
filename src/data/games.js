@@ -17,6 +17,10 @@ export default
     link: "https://en.bandainamcoent.eu/dark-souls/dark-souls-iii",
   },
   {
+    img: "/images/games/civilization.jpg",
+    link: "https://civilization.2k.com/civ-vi/",
+  },
+  {
     img: "/images/games/minecraft.jpg",
     link: "https://www.minecraft.net",
   },
@@ -25,10 +29,11 @@ export default
     link: "https://www.dofus.com",
   },
 
+  //
 
   {
-    img: "/images/games/wakfu.jpg",
-    link: "https://www.wakfu.com",
+    img: "/images/games/dont-starve.jpg",
+    link: "https://www.klei.com/games/dont-starve",
   },
   {
     img: "/images/games/rocket-league.jpg",
@@ -37,15 +42,6 @@ export default
   {
     img: "/images/games/lies-of-p.jpg",
     link: "https://liesofp.com",
-  },
-
-  {
-    img: "/images/games/dont-starve.jpg",
-    link: "https://www.klei.com/games/dont-starve",
-  },
-  {
-    img: "/images/games/civilization.jpg",
-    link: "https://civilization.2k.com/civ-vi/",
   },
   {
     img: "/images/games/pokemon-heartgold.jpg",
@@ -58,5 +54,9 @@ export default
   {
     img: "/images/games/stardew-valley.jpg",
     link: "https://www.stardewvalley.net",
+  },
+  {
+    img: "/images/games/wakfu.jpg",
+    link: "https://www.wakfu.com",
   },
 ];

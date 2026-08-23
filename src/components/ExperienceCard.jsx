@@ -1,6 +1,6 @@
 const CARD_VARIANTS = {
     indigo: {
-    dot: "bg-gradient-to-br from-indigo-400 to-sky-500",
+    dot: "bg-gradient-to-br from-indigo-500 to-indigo-500",
     border: "hover:border-indigo-300",
     tag: "group-hover:border-blue-200",
     accent: "#6366f1",
@@ -31,7 +31,7 @@ const CARD_VARIANTS = {
   },
 };
 
-export default function ExperienceCard({ project, variant = "violet" }) {
+export default function ExperienceCard({ project, variant = "indigo" }) {
   const v = CARD_VARIANTS[variant] ?? CARD_VARIANTS.indigo;
   return (
     <a
@@ -109,7 +109,7 @@ export default function ExperienceCard({ project, variant = "violet" }) {
           {project.tech && project.tech.map((t, idx) => (
             <span
               key={t}
-              className={`text-xs font-medium px-3 py-1.5 rounded-lg bg-gradient-to-r from-violet-100 to-violet-50 text-gray-700 border border-gray-200 transition-all duration-300 ${v.tag}`}
+              className={`text-xs font-medium px-3 py-1.5 rounded-lg bg-gradient-to-r from-indigo-100 to-indigo-50 text-gray-700 border border-gray-200 transition-all duration-300 ${v.tag}`}
               style={{ transitionDelay: `${idx * 30}ms` }}
             >
               {t}
