@@ -27,19 +27,3 @@ Live at: https://sylvainbrunet37.github.io/Portfolio/
 | `npm run dev`     | Start local dev server at `localhost:4321`   |
 | `npm run build`   | Build the production site to `./dist/`       |
 | `npm run preview` | Preview the production build locally         |
-
-## Editing content
-
-All content is **data driven**: you should almost never touch a component or page to update content.
-Just edit the files in `src/data/`:
-
-- `projects.js` - project cards
-- `experiences.js` - work experiences
-- `education.js` - schools & courses
-- `books.js`, `games.js`, `conferences.js` - interests
-
-Images referenced in the data files live under `public/images/`.
-
-## Deployment
-
-Static output deployed on GitHub Pages (`base: '/Portfolio/'`).
