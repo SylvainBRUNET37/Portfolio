@@ -3,7 +3,7 @@ export default [
     id: "real-time-rendering",
     title: "Real-Time Rendering (4th Edition)",
     author: "Tomas Akenine-Möller, Eric Haines, Naty Hoffman, Angelo Pesce, Michal Iwanicki, Sébastien Hillaire",
-    description: "Deep dive into real-time rendering: graphics pipeline, PBR, global illumination, ray tracing, shadows, visibility, GPU optimization, etc.",
+    description: "Deep dive into real-time rendering: graphics pipeline, PBR, global illumination, ray tracing, shadows, volumetric rendering, visibility, GPU optimization, etc.",
     tags: ["Real-Time Rendering", "Computer Graphics", "3D", "GPU", "PBR", "Game Engine", "Shaders"],
     img: "/images/books/real-time-rendering.jpg",
     link: "https://www.goodreads.com/book/show/3610698",

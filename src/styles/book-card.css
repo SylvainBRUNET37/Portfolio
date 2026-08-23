@@ -61,7 +61,9 @@
   color: #475569;
   line-height: 1.4;
   margin-bottom: 10px;
-  max-height: 3.9em;
+  display: -webkit-box;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
   overflow: hidden;
 }
 
