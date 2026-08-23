@@ -46,14 +46,26 @@ export default function EducationCard({ entry, variant = "blue" }) {
       />
       <div className="flex items-start justify-between gap-4 mb-2">
         <div className="flex-1 min-w-0">
-          <h3 className="text-xl font-bold text-gray-900 transition-colors duration-300">
-            {entry.title}
-          </h3>
-          {entry.subtitle && (
-            <p className="mt-1 text-sm font-semibold text-gray-600 tracking-wide">
-              {entry.subtitle}
-            </p>
-          )}
+          <div className="flex items-start gap-3">
+            {entry.logo && (
+              <img
+                src={`${import.meta.env.BASE_URL}${entry.logo.replace(/^\//, "")}`}
+                alt={`${entry.title} logo`}
+                loading="lazy"
+                className="h-12 w-12 flex-shrink-0 rounded-xl border border-gray-100 bg-white object-contain p-1 shadow-sm"
+              />
+            )}
+            <div className="min-w-0">
+              <h3 className="text-xl font-bold text-gray-900 transition-colors duration-300">
+                {entry.title}
+              </h3>
+              {entry.subtitle && (
+                <p className="mt-1 text-sm font-semibold text-gray-600 tracking-wide">
+                  {entry.subtitle}
+                </p>
+              )}
+            </div>
+          </div>
           {entry.summary && (
             <p className="mt-2 text-sm font-medium text-gray-700 leading-relaxed tracking-wide italic group-hover:text-gray-900 transition-colors duration-300">
               {entry.summary}

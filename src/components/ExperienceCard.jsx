@@ -46,11 +46,23 @@ export default function ExperienceCard({ project, variant = "indigo" }) {
       <div className="relative p-6">
         {/* Header: left = title + summary, right = period + company */}
         <div className="flex items-start justify-between gap-4 mb-2">
-          {/* Left: Title (top) and Summary (below) */}
+          {/* Left: Logo (optional), Title (top) and Summary (below) */}
           <div className="flex-1 min-w-0">
-            <h3 className="text-xl font-bold text-gray-900 transition-colors duration-300 truncate">
-              {project.title}
-            </h3>
+            <div className="flex items-start gap-3">
+              {project.logo && (
+                <img
+                  src={`${import.meta.env.BASE_URL}${project.logo.replace(/^\//, "")}`}
+                  alt={`${project.company || project.title} logo`}
+                  loading="lazy"
+                  className="h-12 w-12 flex-shrink-0 rounded-xl border border-gray-100 bg-white object-contain p-1 shadow-sm"
+                />
+              )}
+              <div className="min-w-0 flex-1">
+                <h3 className="text-xl font-bold text-gray-900 transition-colors duration-300 truncate">
+                  {project.title}
+                </h3>
+              </div>
+            </div>
             {project.summary && (
               <p className="mt-2 text-sm font-medium text-gray-700 leading-relaxed tracking-wide italic group-hover:text-gray-900 transition-colors duration-300">
                 <span className="relative font-semibold inline-block">

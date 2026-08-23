@@ -7,7 +7,7 @@ export default
     summary: "3D rendering and performance work on a proprietary AAA game engine",
     description: [
       "Feature development, debugging, profiling and CPU/GPU performance optimization on console within a proprietary engine (Anvil) used by multiple AAA titles (Assassin's Creed games, Ghost Recon, unannounced projects)",
-      "Real-time 3D rendering in C++ and HLSL for VFX, baking, sky and clouds",
+      "Real-time 3D rendering in C++ and HLSL for VFX, sky and clouds",
       "Applied mathematics, PBR, volumetric rendering, raymarching",
       "Worked on systems enabling artists to manipulate rendering and atmosphere",
       "Agile methodology, code reviews, and use of Perforce and Jira",
@@ -28,7 +28,8 @@ export default
       "Team Work",
     ],
     link: "https://quebec.ubisoft.com/en",
-    company: "Ubisoft Quebec"
+    company: "Ubisoft Quebec",
+    logo: "/images/logos/ubisoft.jpg"
   },
   {
     id: "agileo",
@@ -55,7 +56,8 @@ export default
       "Semiconductor Industry"
     ],
     link: "https://www.agileo.com/en/company",
-    company: "Agileo Automation"
+    company: "Agileo Automation",
+    logo: "/images/logos/agileo.png"
   },
   {
     id: "univ-tours",
@@ -75,6 +77,7 @@ export default
         "Access Database"
     ],
     link: "https://www.univ-tours.fr/",
-    company: "University of Tours"
+    company: "University of Tours",
+    logo: "/images/logos/univ-tours.jpg"
   }
 ];
