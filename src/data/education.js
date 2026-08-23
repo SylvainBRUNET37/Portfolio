@@ -20,7 +20,7 @@ export default [
     entries: [
       {
         id: "master",
-        title: "Master's Degree in Computer Science for Video Games",
+        title: "Master's Degree in Computer Science for Video Game Development",
         subtitle: "Université de Sherbrooke - Quebec, Canada",
         logo: "/images/logos/sherbrooke.png",
         period: "Aug 2025 - Oct 2026",

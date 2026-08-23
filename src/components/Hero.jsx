@@ -13,22 +13,27 @@ export default function Hero() {
         className="hero-anim mx-auto mt-2 max-w-3xl text-balance text-4xl font-extrabold leading-tight tracking-tight text-slate-900 md:text-6xl"
         style={{ animationDelay: "0ms" }}
       >
-        Hey, I&apos;m Sylvain Brunet
+        Hi, I&apos;m Sylvain Brunet
       </h1>
 
       <p
         className="hero-anim mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-slate-600"
         style={{ animationDelay: "160ms" }}
       >
-        Game programmer based in Quebec, Canada. I am completing my Master's in
-        Computer Science &amp; Game Development at Université de Sherbrooke at the end of October 2026.
+        I&apos;m a game programmer based in Quebec, Canada, currently completing a Master&apos;s in Computer Science with a specialization in Game Development.
+      </p>
+      <p
+        className="hero-anim mx-auto max-w-2xl text-lg leading-relaxed text-slate-600"
+        style={{ animationDelay: "160ms" }}
+      >
+        I&apos;m graduating at the end of October 2026.
       </p>
 
       <p
         className="hero-anim mx-auto mt-3 max-w-2xl text-lg leading-relaxed text-slate-600"
         style={{ animationDelay: "220ms" }}
       >
-        Actively seeking full-time game programming roles in{" "}
+        I&apos;m seeking full-time game programming roles in{" "}
         <span className="font-semibold text-slate-800">Canada</span> or{" "}
         <span className="font-semibold text-slate-800">Europe</span>.
       </p>

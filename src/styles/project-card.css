@@ -1,5 +1,7 @@
 .pcard {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   border-radius: 16px;
   border: 1px solid #e2e8f0;
   overflow: hidden;
@@ -20,6 +22,7 @@
   aspect-ratio: 4 / 3;
   position: relative;
   overflow: hidden;
+  flex-shrink: 0;
 }
 
 .pcard-media img.pcard-img {
@@ -39,24 +42,30 @@
 }
 
 .pcard-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
   padding: 16px;
 }
 
 .pcard-title { font-weight: 700; font-size: 1.0625rem; margin: 0; color: #0f172a; }
+
 .pcard-desc {
   color: #475569;
   margin-top: 8px;
   font-size: 0.9rem;
   line-height: 1.5;
-
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-
-  overflow: hidden;
 }
 
-.pcard-tags { margin-top: 14px; display: flex; flex-wrap: wrap; gap: 6px; }
+.pcard-tags {
+  margin-top: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: auto;
+  padding-top: 14px;
+}
+
 .pcard-tag {
   font-size: 0.75rem;
   font-weight: 500;
