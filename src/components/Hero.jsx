@@ -1,4 +1,21 @@
+import { contact } from "../data/contact.js";
+
+// One shared look for every action button (email, LinkedIn, GitHub, CVs)
+// so the whole contact area reads as a single homogeneous set.
+const contactBtn =
+  "group inline-flex items-center justify-center gap-2.5 rounded-xl border border-slate-200 bg-white px-4 py-3.5 " +
+  "text-sm font-semibold text-slate-800 shadow-sm transition " +
+  "hover:-translate-y-0.5 hover:border-slate-400 hover:bg-slate-50 hover:shadow-md";
+
 export default function Hero() {
+  const base = import.meta.env.BASE_URL;
+
+  const cvs = [
+    { label: "CV Québec", icon: "qc", file: "Sylvain Brunet - CV QC (FR).pdf" },
+    { label: "CV Canada", icon: "ca", file: "Sylvain Brunet - CV CA (EN).pdf" },
+    { label: "CV Europe", icon: "eu", file: "Sylvain Brunet - CV EU (EN).pdf" },
+  ];
+
   return (
     <section className="relative pt-10 pb-4 text-center">
       <style>{`
@@ -38,30 +55,6 @@ export default function Hero() {
         <span className="font-semibold text-slate-800">Europe</span>.
       </p>
 
-      <div
-        className="hero-anim mt-7 flex flex-wrap items-center justify-center gap-3"
-        style={{ animationDelay: "300ms" }}
-      >
-        <a
-          href="#contact"
-          className="group inline-flex items-center gap-2 rounded-xl bg-slate-900 px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:-translate-y-0.5 hover:bg-slate-700 hover:shadow-md"
-        >
-          Get in touch
-          <span
-            aria-hidden="true"
-            className="transition-transform duration-200 group-hover:translate-x-0.5"
-          >
-            →
-          </span>
-        </a>
-        <a
-          href="#projects"
-          className="rounded-xl border border-slate-300 bg-white px-5 py-2.5 text-sm font-semibold text-slate-800 shadow-sm transition hover:-translate-y-0.5 hover:border-slate-400 hover:bg-slate-50 hover:shadow-md"
-        >
-          See my projects
-        </a>
-      </div>
-
       {/* Stats strip */}
       <dl
         className="hero-anim mx-auto mt-10 grid max-w-3xl grid-cols-1 gap-px overflow-hidden rounded-2xl border border-slate-200 bg-slate-200 shadow-sm sm:grid-cols-3"
@@ -80,6 +73,50 @@ export default function Hero() {
           </div>
         ))}
       </dl>
+
+      {/* Contact — the whole thing, up top, all buttons matching */}
+      <div
+        className="hero-anim mx-auto mt-9 max-w-3xl"
+        style={{ animationDelay: "280ms" }}
+      >
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
+          <a href={`mailto:${contact.email}`} className={`${contactBtn} pr-14`}>
+            <img src={`${base}images/icons/gmail.png`} alt="" className="h-8 w-8 shrink-0" />
+            Email
+          </a>
+          <a
+            href={contact.linkedinUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`${contactBtn} pr-9`}
+          >
+            <img src={`${base}images/icons/linkedin.png`} alt="" className="h-8 w-8 shrink-0" />
+            LinkedIn
+          </a>
+          <a
+            href={contact.githubUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`${contactBtn} pr-10`}
+          >
+            <img src={`${base}images/icons/github.png`} alt="" className="h-8 w-8 shrink-0" />
+            GitHub
+          </a>
+
+          {cvs.map((cv) => (
+            <a
+              key={cv.label}
+              href={`${base}documents/${cv.file}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={contactBtn}
+            >
+              <img src={`${base}images/icons/${cv.icon}.png`} alt="" className="h-8 w-8 shrink-0" />
+              {cv.label}
+            </a>
+          ))}
+        </div>
+      </div>
     </section>
   );
 }

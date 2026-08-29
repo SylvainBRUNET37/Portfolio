@@ -12,11 +12,10 @@ import EducationCard from "../components/EducationCard";
 import BookCard from "../components/BookCard";
 import GameCard from "../components/GameCard";
 
-const base = import.meta.env.BASE_URL;
 ---
 
 <BaseLayout
-  title="Sylvain Brunet - Game Programmer"
+  title="🏝️🌊🫧🐟🦈🐙🦑🐚🪸"
   description="Portfolio of Sylvain Brunet, a game programmer based in Quebec, Canada. Master's in Computer Science & Game Development at Université de Sherbrooke. Projects, experiences and education."
 >
   <Hero />
@@ -117,125 +116,5 @@ const base = import.meta.env.BASE_URL;
     </details>
   </section>
 
-  <!-- Contact -->
-  <section id="contact" class="mt-32 py-16 border-t border-gray-200">
-    <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-2xl font-semibold tracking-tight">Contact</h2>
-
-      <!-- Contact cards -->
-      <div class="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        <!-- LinkedIn -->
-        <a
-          href="https://www.linkedin.com/in/sylvainbrunet37/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="group flex items-center gap-4 rounded-xl border p-6 transition
-                 hover:border-gray-400 hover:bg-gray-50"
-        >
-          <img
-            src={`${base}images/icons/linkedin.png`}
-            alt="LinkedIn"
-            class="h-8 w-8 transition group-hover:scale-110"
-          />
-          <div class="text-left">
-            <div class="text-lg font-medium">LinkedIn</div>
-          </div>
-        </a>
-
-        <!-- Email -->
-        <a
-          href="mailto:sylvain.brunet37@gmail.com"
-          class="group flex items-center gap-4 rounded-xl border p-6 transition
-                 hover:border-gray-400 hover:bg-gray-50"
-        >
-          <img
-            src={`${base}images/icons/gmail.png`}
-            alt="Email"
-            class="h-8 w-8 transition group-hover:scale-110"
-          />
-          <div class="text-left">
-            <div class="text-lg font-medium">Email</div>
-            <p class="text-sm text-gray-500">sylvain.brunet37@gmail.com</p>
-          </div>
-        </a>
-
-        <!-- GitHub -->
-        <a
-          href="https://github.com/SylvainBRUNET37"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="group flex items-center gap-4 rounded-xl border p-6 transition
-                 hover:border-gray-400 hover:bg-gray-50"
-        >
-          <img
-            src={`${base}images/icons/github.png`}
-            alt="GitHub"
-            class="h-8 w-8 transition group-hover:scale-110"
-          />
-          <div class="text-left">
-            <div class="text-lg font-medium">GitHub</div>
-          </div>
-        </a>
-      </div>
-
-      <!-- CV cards -->
-      <div class="mt-6">
-        <div class="grid gap-4 sm:grid-cols-3 mx-auto">
-          <!-- CV QC -->
-          <a
-            href={`${base}documents/Sylvain Brunet - CV QC (FR).pdf`}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="group flex items-center gap-4 rounded-xl border p-6 transition
-                   hover:border-gray-400 hover:bg-gray-50"
-          >
-            <img
-              src={`${base}images/icons/qc.png`}
-              alt="CV Quebec"
-              class="h-8 w-8 transition group-hover:scale-110"
-            />
-            <div class="text-left">
-              <div class="text-lg font-medium">CV - Québecois (FR)</div>
-            </div>
-          </a>
-
-          <!-- CV CA (EN) -->
-          <a
-            href={`${base}documents/Sylvain Brunet - CV CA (EN).pdf`}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="group flex items-center gap-4 rounded-xl border p-6 transition
-                   hover:border-gray-400 hover:bg-gray-50"
-          >
-            <img
-              src={`${base}images/icons/ca.png`}
-              alt="CV French"
-              class="h-8 w-8 transition group-hover:scale-110"
-            />
-            <div class="text-left">
-              <div class="text-lg font-medium">CV - Canadian (EN)</div>
-            </div>
-          </a>
-
-          <!-- CV EU (EN) -->
-          <a
-            href={`${base}documents/Sylvain Brunet - CV EU (EN).pdf`}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="group flex items-center gap-4 rounded-xl border p-6 transition
-                   hover:border-gray-400 hover:bg-gray-50"
-          >
-            <img
-              src={`${base}images/icons/eu.png`}
-              alt="CV English"
-              class="h-8 w-8 transition group-hover:scale-110"
-            />
-            <div class="text-left">
-              <div class="text-lg font-medium">CV - European (EN)</div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
+  <!-- Contact is now at the top (in the hero). -->
 </BaseLayout>

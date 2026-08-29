@@ -9,7 +9,6 @@ export default function Navbar() {
     { label: "Education", href: `${base}education/`, color: "#0EA5A0" },
     { label: "Projects", href: `${base}projects/`, color: "#D18700" },
     { label: "Interests", href: `${base}miscellaneous/`, color: "#E1436D" },
-    { label: "Contact", href: `${base}#contact`, color: "#16A34A" },
   ];
 
   const NavLink = ({ link, mobile = false }) => (

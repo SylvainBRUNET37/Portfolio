@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar.jsx";
 import Footer from "../components/Footer.jsx";
 
 const {
-  title = "Sylvain Brunet - Game Programmer",
+  title = "Sylvain Brunet",
   description = "Portfolio of Sylvain Brunet, a game programmer based in Quebec, Canada. C++, Unreal Engine 5, rendering and gameplay programming.",
 } = Astro.props;
 
@@ -18,7 +18,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalURL} />
-    <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}favicon.svg`} />
+    <link rel="icon" type="image/png" href={`${import.meta.env.BASE_URL}sun.png`} />
 
     <!-- Open Graph / social sharing -->
     <meta property="og:type" content="website" />
