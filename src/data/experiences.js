@@ -6,10 +6,10 @@ export default
     period: "May 2026 - October 2026",
     summary: "3D rendering in C++ and HLSL on a proprietary AAA game engine",
     description: [
-      "Feature development, debugging, profiling and CPU/GPU performance optimization on console within a proprietary engine (Anvil) used by multiple AAA titles (Assassin's Creed games, Ghost Recon, unannounced projects)",
+      "Feature development, debugging, profiling and CPU/GPU performance optimization on console within Anvil, a proprietary engine powering multiple AAA titles (Assassin's Creed series and unannounced projects)",
       "Real-time 3D rendering in C++ and HLSL for VFX, sky and clouds",
       "Applied mathematics, PBR, volumetric rendering, raymarching",
-      "Worked on systems enabling artists to manipulate rendering and atmosphere",
+      "Worked on systems enabling artists to manipulate rendering",
       "Agile methodology, code reviews, and use of Perforce and Jira",
       "Collaborated with international and multicultural teams",
     ],
@@ -38,7 +38,8 @@ export default
     summary: "Development of C# communication gateways for semiconductor manufacturing equipment",
     description: [
       "Development of C# gateways integrated into an industrial framework to enable communication with semiconductor fabrication equipment",
-      "Integration of unit tests, and use of gRPC and OPC-UA for real-time, interoperable client-server applications (multi-language, multi-platform)",
+      "Use of gRPC and OPC-UA for real-time and interoperable client-server applications (multi-language, multi-platform)",
+      "Integration of unit tests with NUnit",
       "Code reviews, agile methodology, and use of Git and Azure DevOps",
     ],
     tech: [
@@ -65,8 +66,8 @@ export default
     period: "May 2022 - July 2022",
     summary: "Requirements analysis, database design and development of a data-processing tool in C++",
     description: [
-      "Carried out the requirements analysis, architectural design, and development of software that automates the extraction of data from spreadsheet files.",
-      "Designed and implemented a database to store the data and developed a calculation tool to facilitate its analysis.",
+      "Carried out the requirements analysis, design, and development of a C++ software that automates the extraction of climate data",
+      "Created a database to store the data and developed a calculation tool in C++ to facilitate its analysis",
     ],
     tech: [
         "Needs Analysis",
